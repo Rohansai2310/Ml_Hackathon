@@ -1,0 +1,41 @@
+{
+  "country_relationships_by_target_source": {
+    "S2": {
+      "equal_nonblank": 3693619
+    },
+    "S3": {
+      "equal_nonblank": 3944746
+    }
+  },
+  "country_rule": "normalized open-set equality; no country whitelist",
+  "duplicate_examples": {
+    "S2": [],
+    "S3": []
+  },
+  "ground_truth_links": 7638365,
+  "observed_open_set_countries_by_source": {
+    "S1": {
+      "india": 883188,
+      "us": 1323633
+    },
+    "S2": {
+      "india": 2017799,
+      "us": 3016817
+    },
+    "S3": {
+      "india": 2115547,
+      "us": 3170056
+    }
+  },
+  "runtime_seconds": 113.22,
+  "target_uniqueness_by_source": {
+    "S2": {
+      "maximum_distinct_s1_per_target": 1,
+      "target_ids_linked_to_multiple_s1": 0
+    },
+    "S3": {
+      "maximum_distinct_s1_per_target": 1,
+      "target_ids_linked_to_multiple_s1": 0
+    }
+  }
+}

@@ -1,0 +1,353 @@
+{
+  "dtype": "float32",
+  "excluded_fields": [
+    "source1_entity_id",
+    "candidate_entity_id",
+    "label",
+    "negative_reason",
+    "target_source"
+  ],
+  "feature_count": 48,
+  "feature_order": [
+    "name_basic_exact",
+    "name_core_exact",
+    "name_ratio",
+    "name_token_sort_ratio",
+    "name_token_set_ratio",
+    "name_token_jaccard",
+    "name_shared_token_count",
+    "name_shared_fraction_left",
+    "name_shared_fraction_right",
+    "name_length_ratio",
+    "name_prefix_agree",
+    "name_suffix_agree",
+    "name_missing_left",
+    "name_missing_right",
+    "name_missing_both",
+    "address_exact",
+    "address_ratio",
+    "address_token_jaccard",
+    "address_shared_token_count",
+    "address_shared_fraction_left",
+    "address_shared_fraction_right",
+    "address_length_ratio",
+    "address_missing_left",
+    "address_missing_right",
+    "address_missing_both",
+    "numeric_count_left",
+    "numeric_count_right",
+    "numeric_shared_count",
+    "numeric_shared",
+    "numeric_conflict",
+    "postal_shared",
+    "postal_conflict",
+    "postal_missing_left",
+    "postal_missing_right",
+    "country_equal",
+    "country_missing_left",
+    "country_missing_right",
+    "from_v1",
+    "from_address",
+    "from_v1_and_address",
+    "address_rank",
+    "address_rank_reciprocal",
+    "address_rank_log1p",
+    "address_rank_missing",
+    "address_score",
+    "address_top_candidate",
+    "candidate_count_source",
+    "candidate_count_log1p"
+  ],
+  "features": [
+    {
+      "description": "Non-empty normalized business names are equal.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "name_basic_exact"
+    },
+    {
+      "description": "Non-empty legal-suffix-normalized business names are equal.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "name_core_exact"
+    },
+    {
+      "description": "RapidFuzz character ratio on normalized names.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "name_ratio"
+    },
+    {
+      "description": "RapidFuzz token-sort ratio on core names.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "name_token_sort_ratio"
+    },
+    {
+      "description": "RapidFuzz token-set ratio on core names.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "name_token_set_ratio"
+    },
+    {
+      "description": "Jaccard overlap of core-name token sets.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "name_token_jaccard"
+    },
+    {
+      "description": "Count of shared core-name tokens.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "name_shared_token_count"
+    },
+    {
+      "description": "Shared core tokens divided by S1 core-token count.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "name_shared_fraction_left"
+    },
+    {
+      "description": "Shared core tokens divided by target core-token count.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "name_shared_fraction_right"
+    },
+    {
+      "description": "Shorter/longer normalized-name length.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "name_length_ratio"
+    },
+    {
+      "description": "First non-empty core-name tokens agree.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "name_prefix_agree"
+    },
+    {
+      "description": "Last non-empty core-name tokens agree.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "name_suffix_agree"
+    },
+    {
+      "description": "S1 normalized name is blank.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "name_missing_left"
+    },
+    {
+      "description": "Target normalized name is blank.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "name_missing_right"
+    },
+    {
+      "description": "Both normalized names are blank.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "name_missing_both"
+    },
+    {
+      "description": "Non-empty normalized addresses are equal.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "address_exact"
+    },
+    {
+      "description": "RapidFuzz character ratio on normalized addresses.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "address_ratio"
+    },
+    {
+      "description": "Jaccard overlap of standardized address tokens.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "address_token_jaccard"
+    },
+    {
+      "description": "Count of shared standardized address tokens.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "address_shared_token_count"
+    },
+    {
+      "description": "Shared address tokens divided by S1 token count.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "address_shared_fraction_left"
+    },
+    {
+      "description": "Shared address tokens divided by target token count.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "address_shared_fraction_right"
+    },
+    {
+      "description": "Shorter/longer normalized-address length.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "address_length_ratio"
+    },
+    {
+      "description": "S1 normalized address is blank.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "address_missing_left"
+    },
+    {
+      "description": "Target normalized address is blank.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "address_missing_right"
+    },
+    {
+      "description": "Both normalized addresses are blank.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "address_missing_both"
+    },
+    {
+      "description": "Number of non-postal numeric tokens on S1.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "numeric_count_left"
+    },
+    {
+      "description": "Number of non-postal numeric tokens on target.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "numeric_count_right"
+    },
+    {
+      "description": "Count of shared non-postal numeric tokens.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "numeric_shared_count"
+    },
+    {
+      "description": "At least one non-postal numeric token agrees.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "numeric_shared"
+    },
+    {
+      "description": "Both sides have numeric evidence but none agrees.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "numeric_conflict"
+    },
+    {
+      "description": "At least one heuristic postal candidate agrees.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "postal_shared"
+    },
+    {
+      "description": "Both sides have postals but none agrees.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "postal_conflict"
+    },
+    {
+      "description": "S1 has no heuristic postal candidate.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "postal_missing_left"
+    },
+    {
+      "description": "Target has no heuristic postal candidate.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "postal_missing_right"
+    },
+    {
+      "description": "Normalized countries agree.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "country_equal"
+    },
+    {
+      "description": "S1 normalized country is blank.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "country_missing_left"
+    },
+    {
+      "description": "Target normalized country is blank.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "country_missing_right"
+    },
+    {
+      "description": "Candidate was retrieved by frozen V1 blocking.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "from_v1"
+    },
+    {
+      "description": "Candidate was retrieved by frozen Address K10.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "from_address"
+    },
+    {
+      "description": "Candidate was retrieved by both frozen routes.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "from_v1_and_address"
+    },
+    {
+      "description": "Address-route rank; zero when no address route.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "address_rank"
+    },
+    {
+      "description": "One divided by Address-route rank; zero when absent.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "address_rank_reciprocal"
+    },
+    {
+      "description": "log1p(Address-route rank); zero when absent.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "address_rank_log1p"
+    },
+    {
+      "description": "Candidate has no Address-route rank.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "address_rank_missing"
+    },
+    {
+      "description": "Address-route retrieval score; zero when absent.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "address_score"
+    },
+    {
+      "description": "Candidate has Address-route rank one.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "address_top_candidate"
+    },
+    {
+      "description": "Full union candidate count for this S1 and target source.",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "candidate_count_source"
+    },
+    {
+      "description": "log1p(full union candidate count for source).",
+      "dtype": "float32",
+      "missing": "0.0",
+      "name": "candidate_count_log1p"
+    }
+  ],
+  "normalization_source": "normalize.py through baseline.make_record",
+  "phase": "8"
+}

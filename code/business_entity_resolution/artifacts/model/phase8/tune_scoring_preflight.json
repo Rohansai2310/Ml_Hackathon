@@ -1,0 +1,27 @@
+{
+  "benchmark": true,
+  "bytes": {
+    "S2": 763993,
+    "S3": 821028
+  },
+  "files": {
+    "S2": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model/phase8/benchmark_s2.tsv.gz",
+    "S3": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model/phase8/benchmark_s3.tsv.gz"
+  },
+  "peak_rss_mb": 488.72265625,
+  "projection_full_100k": {
+    "disk_bytes": 158502100.0,
+    "peak_rss_mb": 488.72265625,
+    "runtime_seconds": 1011.013936100062
+  },
+  "rows": {
+    "S2": 65563,
+    "S3": 69128
+  },
+  "rows_per_second": 13322.368286985648,
+  "s1_count": 1000,
+  "seconds": 10.11013936100062,
+  "target_queries": 1003,
+  "target_rows_fetched": 130784,
+  "total_rows": 134691
+}

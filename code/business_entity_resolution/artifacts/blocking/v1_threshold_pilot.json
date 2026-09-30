@@ -1,0 +1,322 @@
+{
+  "seed": 20260925,
+  "s1_sample_size": 4000,
+  "true_links": 13987,
+  "configs": {
+    "default": {
+      "limits": {
+        "exact": 500,
+        "core": 300,
+        "rare_token": 200,
+        "informative_token": 3000,
+        "address_token": 6000,
+        "address_number": 6000,
+        "postal": 6000,
+        "max_query_tokens": 4
+      },
+      "final": {
+        "configuration": "exact_name+core_name+rare_name_token+address_numeric_route+postal_route",
+        "candidate_recall": 0.6907842997068707,
+        "s2_recall": 0.6946811636791067,
+        "s3_recall": 0.6870909344102493,
+        "total_candidate_pairs": 382448,
+        "mean": 95.612,
+        "median": 46,
+        "p90": 249,
+        "p95": 353.0500000000002,
+        "p99": 533,
+        "max": 2813,
+        "zero_pct": 1.675,
+        "over_1000_pct": 0.25
+      },
+      "missed": {
+        "S2": 2078,
+        "S3": 2247
+      },
+      "seconds": 15.403432400955353
+    },
+    "more_rare": {
+      "limits": {
+        "exact": 500,
+        "core": 300,
+        "rare_token": 500,
+        "informative_token": 3000,
+        "address_token": 6000,
+        "address_number": 6000,
+        "postal": 6000,
+        "max_query_tokens": 6
+      },
+      "final": {
+        "configuration": "exact_name+core_name+rare_name_token+address_numeric_route+postal_route",
+        "candidate_recall": 0.7029384428397798,
+        "s2_recall": 0.7071701439905965,
+        "s3_recall": 0.6989277259434619,
+        "total_candidate_pairs": 673679,
+        "mean": 168.41975,
+        "median": 58,
+        "p90": 507,
+        "p95": 735.1000000000004,
+        "p99": 1118.0800000000017,
+        "max": 2813,
+        "zero_pct": 1.4,
+        "over_1000_pct": 1.55
+      },
+      "missed": {
+        "S2": 1993,
+        "S3": 2162
+      },
+      "seconds": 17.950565314036794
+    },
+    "more_address": {
+      "limits": {
+        "exact": 500,
+        "core": 300,
+        "rare_token": 200,
+        "informative_token": 3000,
+        "address_token": 10000,
+        "address_number": 10000,
+        "postal": 6000,
+        "max_query_tokens": 6
+      },
+      "final": {
+        "configuration": "exact_name+core_name+rare_name_token+address_numeric_route+postal_route",
+        "candidate_recall": 0.7163080002859799,
+        "s2_recall": 0.7140758154569498,
+        "s3_recall": 0.718423617880518,
+        "total_candidate_pairs": 401803,
+        "mean": 100.45075,
+        "median": 51,
+        "p90": 250.0999999999999,
+        "p95": 354.0500000000002,
+        "p99": 533.0100000000002,
+        "max": 2813,
+        "zero_pct": 1.45,
+        "over_1000_pct": 0.25
+      },
+      "missed": {
+        "S2": 1946,
+        "S3": 2022
+      },
+      "seconds": 23.077141024987213
+    },
+    "combined": {
+      "limits": {
+        "exact": 500,
+        "core": 300,
+        "rare_token": 500,
+        "informative_token": 5000,
+        "address_token": 10000,
+        "address_number": 10000,
+        "postal": 6000,
+        "max_query_tokens": 6
+      },
+      "final": {
+        "configuration": "exact_name+core_name+rare_name_token+address_numeric_route+postal_route",
+        "candidate_recall": 0.7289626081361265,
+        "s2_recall": 0.72685865412871,
+        "s3_recall": 0.7309566912686255,
+        "total_candidate_pairs": 867227,
+        "mean": 216.80675,
+        "median": 70,
+        "p90": 535.0999999999999,
+        "p95": 778,
+        "p99": 1612.1100000000024,
+        "max": 7479,
+        "zero_pct": 0.9,
+        "over_1000_pct": 2.275
+      },
+      "missed": {
+        "S2": 1859,
+        "S3": 1932
+      },
+      "seconds": 27.79695491498569
+    },
+    "six_tokens": {
+      "limits": {
+        "exact": 500,
+        "core": 300,
+        "rare_token": 200,
+        "informative_token": 3000,
+        "address_token": 6000,
+        "address_number": 6000,
+        "postal": 6000,
+        "max_query_tokens": 6
+      },
+      "final": {
+        "configuration": "exact_name+core_name+rare_name_token+address_numeric_route+postal_route",
+        "candidate_recall": 0.6907842997068707,
+        "s2_recall": 0.6946811636791067,
+        "s3_recall": 0.6870909344102493,
+        "total_candidate_pairs": 382494,
+        "mean": 95.6235,
+        "median": 46,
+        "p90": 249,
+        "p95": 353.0500000000002,
+        "p99": 533,
+        "max": 2813,
+        "zero_pct": 1.675,
+        "over_1000_pct": 0.25
+      },
+      "missed": {
+        "S2": 2078,
+        "S3": 2247
+      },
+      "seconds": 15.464430566993542
+    },
+    "address_cap_only": {
+      "limits": {
+        "exact": 500,
+        "core": 300,
+        "rare_token": 200,
+        "informative_token": 3000,
+        "address_token": 10000,
+        "address_number": 10000,
+        "postal": 6000,
+        "max_query_tokens": 4
+      },
+      "final": {
+        "configuration": "exact_name+core_name+rare_name_token+address_numeric_route+postal_route",
+        "candidate_recall": 0.7163080002859799,
+        "s2_recall": 0.7140758154569498,
+        "s3_recall": 0.718423617880518,
+        "total_candidate_pairs": 401664,
+        "mean": 100.416,
+        "median": 51,
+        "p90": 250.0999999999999,
+        "p95": 354.0500000000002,
+        "p99": 533,
+        "max": 2813,
+        "zero_pct": 1.45,
+        "over_1000_pct": 0.25
+      },
+      "missed": {
+        "S2": 1946,
+        "S3": 2022
+      },
+      "seconds": 21.6159203290008
+    },
+    "address_20k": {
+      "limits": {
+        "exact": 500,
+        "core": 300,
+        "rare_token": 200,
+        "informative_token": 3000,
+        "address_token": 20000,
+        "address_number": 20000,
+        "postal": 6000,
+        "max_query_tokens": 6
+      },
+      "final": {
+        "configuration": "exact_name+core_name+rare_name_token+address_numeric_route+postal_route",
+        "candidate_recall": 0.7675698863230143,
+        "s2_recall": 0.7609462239200705,
+        "s3_recall": 0.773847653530149,
+        "total_candidate_pairs": 502378,
+        "mean": 125.5945,
+        "median": 79,
+        "p90": 294,
+        "p95": 386,
+        "p99": 573.0300000000007,
+        "max": 2813,
+        "zero_pct": 0.75,
+        "over_1000_pct": 0.25
+      },
+      "missed": {
+        "S2": 1627,
+        "S3": 1624
+      },
+      "seconds": 45.673859350034036
+    },
+    "address_20k_4": {
+      "final": {
+        "configuration": "exact_name+core_name+rare_name_token+address_numeric_route+postal_route",
+        "candidate_recall": 0.7675698863230143,
+        "s2_recall": 0.7609462239200705,
+        "s3_recall": 0.773847653530149,
+        "total_candidate_pairs": 502216,
+        "mean": 125.554,
+        "median": 79,
+        "p90": 294,
+        "p95": 386,
+        "p99": 572.0100000000002,
+        "max": 2813,
+        "zero_pct": 0.75,
+        "over_1000_pct": 0.25
+      },
+      "missed": {
+        "S2": 1627,
+        "S3": 1624
+      },
+      "seconds": 41.43440350901801
+    },
+    "address_30k_4": {
+      "final": {
+        "configuration": "exact_name+core_name+rare_name_token+address_numeric_route+postal_route",
+        "candidate_recall": 0.7753628369199972,
+        "s2_recall": 0.7666764619453423,
+        "s3_recall": 0.7835955994986771,
+        "total_candidate_pairs": 576574,
+        "mean": 144.1435,
+        "median": 94,
+        "p90": 343,
+        "p95": 446,
+        "p99": 697.0200000000004,
+        "max": 2813,
+        "zero_pct": 0.65,
+        "over_1000_pct": 0.4
+      },
+      "missed": {
+        "S2": 1588,
+        "S3": 1554
+      },
+      "seconds": 49.44448933296371
+    },
+    "address_50k_4": {
+      "final": {
+        "configuration": "exact_name+core_name+rare_name_token+address_numeric_route+postal_route",
+        "candidate_recall": 0.7837277471938229,
+        "s2_recall": 0.7725536291507493,
+        "s3_recall": 0.7943183400640579,
+        "total_candidate_pairs": 796492,
+        "mean": 199.123,
+        "median": 110,
+        "p90": 450,
+        "p95": 655,
+        "p99": 1575.3400000000074,
+        "max": 5079,
+        "zero_pct": 0.6,
+        "over_1000_pct": 2.575
+      },
+      "missed": {
+        "S2": 1548,
+        "S3": 1477
+      },
+      "seconds": 63.77932262700051
+    },
+    "final_sql_strong": {
+      "final": {
+        "configuration": "exact_name+core_name+rare_name_token+address_numeric_route+postal_route+strong_address_route",
+        "candidate_recall": 0.8142560949453064,
+        "s2_recall": 0.8119306494269762,
+        "s3_recall": 0.8164601030497145,
+        "total_candidate_pairs": 520029,
+        "mean": 130.00725,
+        "median": 86,
+        "p90": 299,
+        "p95": 395,
+        "p99": 587.0700000000015,
+        "max": 2813,
+        "zero_pct": 0.575,
+        "over_1000_pct": 0.25
+      },
+      "seconds": 37.51076232595369
+    }
+  },
+  "strong_address_1000": {
+    "extra_candidates": 17813,
+    "extra_candidates_per_s1": 4.45325,
+    "recovered_extra_true_links": 653,
+    "seconds": 14.645360475056805
+  },
+  "notes": "Seeded validation subset used to select caps; the full validation run remains the reported result."
+}

@@ -1,0 +1,22 @@
+HELD-OUT VALIDATION EVALUATION
+
+S1 entities: 220,683
+Candidate pairs: 32,332,263
+Candidate recall: 93.081168%
+S2 candidate recall: 93.146607%
+S3 candidate recall: 93.019775%
+Macro entity-level F0.5: 0.87000579
+TP / FP / FN: 601,004 / 45,953 / 163,070
+Precision / recall diagnostics: 0.928971 / 0.786578
+Blocking misses / model-decision misses: 52,865 / 110,205
+Singleton true / predicted / correct / false merges: 12,386 / 17,512 / 10,709 / 1,677
+Singleton accuracy: 0.864605
+Predictions per S1 mean / P95 / P99 / max: 2.9316 / 6.0 / 8.0 / 51
+Prediction cardinality histogram: 0=17512, 1=28914, 2=48530, 3=49834, 4=37458, 5=21714, 6=10095, 7=4050, 8=1396, 9=535, 10=244, 11=122, 12=81, 13=47, 14=21, 15=28, 16=22, 17=17, 18=14, 19=7, 20=12, 21=6, 22=2, 24=1, 25=5, 26=3, 27=4, 30=3, 31=1, 37=1, 38=2, 41=1, 51=1
+Runtime evaluation / score / Address K10: 159.1s / 2417.0s / 4034.2s
+Peak RSS overall / evaluation: 1683.5 / 1683.5 MiB
+Output disk total: 428,079,544 bytes
+
+Source diagnostics (precision/recall are micro diagnostics):
+S2: TP=297,081 FP=22,029 FN=72,765; precision=0.930967; recall=0.803256
+S3: TP=303,923 FP=23,924 FN=90,305; precision=0.927027; recall=0.770932

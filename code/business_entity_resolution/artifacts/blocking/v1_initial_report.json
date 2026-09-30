@@ -1,0 +1,282 @@
+{
+  "ablation": [
+    {
+      "candidate_recall": 0.22690865020927292,
+      "configuration": "exact_name",
+      "max": 458,
+      "mean": 10.17341163569464,
+      "median": 1.0,
+      "over_1000_pct": 0.0,
+      "p90": 16.0,
+      "p95": 62.0,
+      "p99": 186.0,
+      "s2_recall": 0.22415275547119612,
+      "s3_recall": 0.22949409986099414,
+      "total_candidate_pairs": 2245099,
+      "zero_pct": 28.184771822025258
+    },
+    {
+      "candidate_recall": 0.40952970523797433,
+      "configuration": "exact_name+core_name",
+      "max": 588,
+      "mean": 30.06537431519419,
+      "median": 3.0,
+      "over_1000_pct": 0.0,
+      "p90": 67.0,
+      "p95": 147.0,
+      "p99": 464.0,
+      "s2_recall": 0.41925558205307073,
+      "s3_recall": 0.4004053491887943,
+      "total_candidate_pairs": 6634917,
+      "zero_pct": 9.934612090645858
+    },
+    {
+      "candidate_recall": 0.6080209508503103,
+      "configuration": "exact_name+core_name+rare_name_token",
+      "max": 3340,
+      "mean": 91.81438987144456,
+      "median": 43.0,
+      "over_1000_pct": 0.23427268978580135,
+      "p90": 248.0,
+      "p95": 350.0,
+      "p99": 517.0,
+      "s2_recall": 0.6104162272946037,
+      "s3_recall": 0.6057738161672941,
+      "total_candidate_pairs": 20261875,
+      "zero_pct": 3.505933850817689
+    },
+    {
+      "candidate_recall": 0.6901347251705987,
+      "configuration": "exact_name+core_name+rare_name_token+address_numeric_route",
+      "max": 3346,
+      "mean": 94.04671406497103,
+      "median": 45.0,
+      "over_1000_pct": 0.23427268978580135,
+      "p90": 249.0,
+      "p95": 351.0,
+      "p99": 518.0,
+      "s2_recall": 0.688410852084381,
+      "s3_recall": 0.6917519810870867,
+      "total_candidate_pairs": 20754511,
+      "zero_pct": 1.6761599216976386
+    },
+    {
+      "candidate_recall": 0.6901347251705987,
+      "configuration": "exact_name+core_name+rare_name_token+address_numeric_route+postal_route",
+      "max": 3346,
+      "mean": 94.04671406497103,
+      "median": 45.0,
+      "over_1000_pct": 0.23427268978580135,
+      "p90": 249.0,
+      "p95": 351.0,
+      "p99": 518.0,
+      "s2_recall": 0.688410852084381,
+      "s3_recall": 0.6917519810870867,
+      "total_candidate_pairs": 20754511,
+      "zero_pct": 1.6761599216976386
+    }
+  ],
+  "candidate_file": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/blocking/v1_validation_candidates.tsv.gz",
+  "candidate_seconds": 755.3577185170143,
+  "frequencies": {
+    "keys": 17661690,
+    "reused": false,
+    "seconds": 18.331491916032974
+  },
+  "index": {
+    "index_bytes": 6684536832,
+    "postings": 65707176,
+    "reused": false,
+    "seconds": 426.71613148297183,
+    "target_rows": 10320219
+  },
+  "index_statistics": {
+    "S2_address_number": {
+      "indexed_postings": 7297996,
+      "keys_over_cap": 145,
+      "max_postings": 294087,
+      "median_postings": 4,
+      "p95_postings": 175,
+      "p99_postings": 1049,
+      "unique_keys": 85958
+    },
+    "S2_core_name": {
+      "indexed_postings": 5034594,
+      "keys_over_cap": 83,
+      "max_postings": 711,
+      "median_postings": 1,
+      "p95_postings": 3,
+      "p99_postings": 7,
+      "unique_keys": 3540438
+    },
+    "S2_exact_name": {
+      "indexed_postings": 5034616,
+      "keys_over_cap": 2,
+      "max_postings": 526,
+      "median_postings": 1,
+      "p95_postings": 2,
+      "p99_postings": 5,
+      "unique_keys": 4021432
+    },
+    "S2_name_token": {
+      "indexed_postings": 14408198,
+      "keys_over_cap": 353,
+      "max_postings": 256632,
+      "median_postings": 1,
+      "p95_postings": 17,
+      "p99_postings": 106,
+      "unique_keys": 850954
+    },
+    "S2_postal": {
+      "indexed_postings": 324130,
+      "keys_over_cap": 0,
+      "max_postings": 169,
+      "median_postings": 3,
+      "p95_postings": 30,
+      "p99_postings": 55,
+      "unique_keys": 42982
+    },
+    "S3_address_number": {
+      "indexed_postings": 7645324,
+      "keys_over_cap": 161,
+      "max_postings": 272248,
+      "median_postings": 4,
+      "p95_postings": 186,
+      "p99_postings": 1108,
+      "unique_keys": 86203
+    },
+    "S3_core_name": {
+      "indexed_postings": 5285507,
+      "keys_over_cap": 82,
+      "max_postings": 636,
+      "median_postings": 1,
+      "p95_postings": 3,
+      "p99_postings": 6,
+      "unique_keys": 3797749
+    },
+    "S3_exact_name": {
+      "indexed_postings": 5285603,
+      "keys_over_cap": 3,
+      "max_postings": 521,
+      "median_postings": 1,
+      "p95_postings": 2,
+      "p99_postings": 5,
+      "unique_keys": 4279921
+    },
+    "S3_name_token": {
+      "indexed_postings": 15049265,
+      "keys_over_cap": 392,
+      "max_postings": 267244,
+      "median_postings": 1,
+      "p95_postings": 18,
+      "p99_postings": 100,
+      "unique_keys": 912609
+    },
+    "S3_postal": {
+      "indexed_postings": 341943,
+      "keys_over_cap": 0,
+      "max_postings": 155,
+      "median_postings": 3,
+      "p95_postings": 31,
+      "p99_postings": 58,
+      "unique_keys": 43444
+    }
+  },
+  "metadata_file": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/blocking/v1_validation_metadata.tsv.gz",
+  "miss_ids_file": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/diagnostics/blocking_miss_ids_v1.tsv.gz",
+  "miss_sample_file": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/diagnostics/blocking_misses_v1.tsv",
+  "missed": {
+    "S2": 115240,
+    "S3": 121520
+  },
+  "peak_rss_mb": 388.27734375,
+  "route_only_ablation": [
+    {
+      "candidate_recall": 0.22690865020927292,
+      "configuration": "exact_name alone",
+      "max": 458,
+      "mean": 10.17341163569464,
+      "median": 1.0,
+      "over_1000_pct": 0.0,
+      "p90": 16.0,
+      "p95": 62.0,
+      "p99": 186.0,
+      "s2_recall": 0.22415275547119612,
+      "s3_recall": 0.22949409986099414,
+      "total_candidate_pairs": 2245099,
+      "zero_pct": 28.184771822025258
+    },
+    {
+      "candidate_recall": 0.4056609700107581,
+      "configuration": "core_name alone",
+      "max": 588,
+      "mean": 28.437641322621136,
+      "median": 3.0,
+      "over_1000_pct": 0.0,
+      "p90": 62.0,
+      "p95": 132.0,
+      "p99": 464.0,
+      "s2_recall": 0.41539721938320273,
+      "s3_recall": 0.39652688292054344,
+      "total_candidate_pairs": 6275704,
+      "zero_pct": 10.788325335435896
+    },
+    {
+      "candidate_recall": 0.4079971311679235,
+      "configuration": "rare_name_token alone",
+      "max": 3340,
+      "mean": 63.921507320455135,
+      "median": 0.0,
+      "over_1000_pct": 0.23427268978580135,
+      "p90": 209.0,
+      "p95": 293.0,
+      "p99": 440.0,
+      "s2_recall": 0.41106568679937056,
+      "s3_recall": 0.40511835790456285,
+      "total_candidate_pairs": 14106390,
+      "zero_pct": 52.28359230208036
+    },
+    {
+      "candidate_recall": 0.4027044500925303,
+      "configuration": "address_numeric_route alone",
+      "max": 358,
+      "mean": 3.4485121191935946,
+      "median": 2.0,
+      "over_1000_pct": 0.0,
+      "p90": 9.0,
+      "p95": 14.0,
+      "p99": 29.0,
+      "s2_recall": 0.40493070088631483,
+      "s3_recall": 0.4006158872530617,
+      "total_candidate_pairs": 761028,
+      "zero_pct": 40.07377097465596
+    },
+    {
+      "candidate_recall": 0.03435269358727034,
+      "configuration": "postal_route alone",
+      "max": 10,
+      "mean": 0.12248791252611212,
+      "median": 0.0,
+      "over_1000_pct": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "p99": 4.0,
+      "s2_recall": 0.03407093763350151,
+      "s3_recall": 0.03461702365128809,
+      "total_candidate_pairs": 27031,
+      "zero_pct": 95.28962357771101
+    }
+  ],
+  "route_only_seconds": 37.2792376629659,
+  "s1_count": 220683,
+  "skipped_queries": {
+    "common_number": 252932,
+    "common_token": 498381,
+    "core_name": 4020
+  },
+  "total_seconds": 1220.6603708099574,
+  "true_links": {
+    "S2": 369846,
+    "S3": 394228
+  }
+}

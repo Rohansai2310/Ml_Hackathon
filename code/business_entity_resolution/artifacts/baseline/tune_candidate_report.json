@@ -1,0 +1,38 @@
+{
+  "candidate_file": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/baseline/tune_candidates.tsv.gz",
+  "candidate_metrics": {
+    "blocking_misses": 65125,
+    "candidate_recall": 0.8116015818234942,
+    "max_candidates": 3096,
+    "mean_candidates": 128.40689,
+    "median_candidates": 82.0,
+    "over_1000_candidate_pct": 0.22,
+    "p90_candidates": 305.0,
+    "p95_candidates": 397.0,
+    "p99_candidates": 573.0,
+    "recovered_links": 280552,
+    "s1_entities": 100000,
+    "s2_blocking_misses": 33189,
+    "s2_candidate_recall": 0.8013300929029786,
+    "s2_recovered_links": 133867,
+    "s2_true_links": 167056,
+    "s3_blocking_misses": 31936,
+    "s3_candidate_recall": 0.8212080326501363,
+    "s3_recovered_links": 146685,
+    "s3_true_links": 178621,
+    "total_candidate_pairs": 12840689,
+    "true_links": 345677,
+    "zero_candidate_pct": 0.53
+  },
+  "candidate_seconds": 911.3562490130425,
+  "metadata_file": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/baseline/tune_metadata.tsv.gz",
+  "peak_rss_mb": 107.41015625,
+  "s1_count": 100000,
+  "skipped_queries": {
+    "common_number": 82891,
+    "common_strong_number": 69193,
+    "common_token": 74281,
+    "core_name": 1840
+  },
+  "total_candidate_pairs": 12840689
+}

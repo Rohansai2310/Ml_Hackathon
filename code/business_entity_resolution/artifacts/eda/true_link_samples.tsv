@@ -1,0 +1,31 @@
+target_source	source1_entity_id	source1_name	source1_address	source1_country	matched_entity_id	matched_name	matched_address	matched_country
+S2	S1-573783309	Scholarship Fellowship	Chandler, AZ, 2400 Arizona Avenue, Unit 2101	US	S2-699540455	SCHOLARSHIP SCHOLARSHIP FECLHOWMSIP	2400 ARIZONA AVE, CHANDLER, AZ	US
+S2	S1-966188318	Sunrise Enterprises Private Limited	Plot No.38, Bhishma Nagar, Hyderabad, Telangana	India	S2-752655446	Sunrise Enterprises  Private	PLOT NO.38, BHISHMA NAGAR, HYDERABAD, Telangana	India
+S2	S1-674996106	Om Infotech Private Limited	63, G/F, Between 70 Raod, Savita Vihar, Shahdara, Delhi	India	S2-278690848	Om Infotech Private		India
+S2	S1-783927839	Creative Property Advisors LLC	501 Amy Ave, Louisville, KY	US	S2-48560151	... Creative-Property Advisors L.L.C.	501A AMY AVE, LOUISVILLE, KY	US
+S2	S1-657913557	Prentiss and Thies Sunstone	5064 Patton Drive, Cramerton, NC	US	S2-48493768	PRENTISS AND THIES SUNSTONE INC.	005064 PATTON DR, CRAMERTON, NC	US
+S2	S1-77601565	QW It Private Limited	Rno D1 Antrbhrti Chs Ltd, Pl605 P4S6 Chrkp Kndivli, Kandivali West, Mumbai, Maharashtra	India	S2-186269613	QW-It Prbrivsacote Limited	RNO D1 ANTRBHRTI CHS LTD, KANDIVALI WEST, MUMBAI, Maharashtra	India
+S2	S1-96454387	Mehta Group	11- B, Ground Floor, Dda, Csc, Market, Sector-B, Pocket-1, Vasant Kunj, New Delhi, South West Delhi, Delhi	India	S2-197791645	MEHTA GROUP	11- B, GROUND FLOOR, DDA, CSC, MARKET, SECTOR-B, POCKET-1, VASANT KUNJ, NEW DELHI, Delhi	India
+S2	S1-12784761	Cornerstone Pacific Ridge Associates	VA, 6751 Amanda Court, Gloucester County	US	S2-968505913	Cornerstone Pacific Ridge Associates Inc.	6751 AMANDA CT, GLOUCESTER, VA	US
+S2	S1-865245239	Dermatology Medicine	147 Mill Run Drive, Youngstown, OH	US	S2-551869439	Dermatology Partners	MILL RUN DR, YOUNGSTOWN, OH	US
+S2	S1-546482372	Riddhi Technology Pvt Ltd	Abhinav Center, 3Rd Floor, Door No.4, (Old No.19) Co-Operative Colony, Chamiers Road, Alwa, Rpet, Chennai, Tamil Nadu	India	S2-949772780	Riddhi Pvt Ltd Services	NO 219  ABHINAV CENTER, 3RD FLOOR, DOOR NO.4, (OLD NO.19) CO-OPERATIVE COLONY, CHAMIERS ROAD, ALWA, RPET, CHENNAI, Tamil Nadu	India
+S2	S1-755607622	Serna and Burch Blackstone	143 Manor Circle, East Hartford, CT	US	S2-861125111	Serna and (Burch)	143 MANOR CIR, E HARTFORD, CT	US
+S2	S1-428916485	Krueger and Montoya LLC	1199 Hummingbird Lane, Grayslake, IL	US	S2-469396939	Krueger and Monay LLC	119 HUMMINGBIRD LN, GRAYSLAKE, IL	US
+S2	S1-920190168	Abalone Forever Private Limited	H.No.17-127/145, East Kalyanpuri, Uppal, Hyderabad, Telangana	India	S2-820853657	Sri Abalone Forever Private Límited	H.NO.17-127/145, EAST KALYANPURI, UPPAL, HYDERABAD, తెలంగాణ	India
+S2	S1-915158589	Ketecnet	10241 Oglesby Avenue, Chicago, IL	US	S2-392804889	ketecnet	10241 OGLESBY AVENUE, CHICAGO, IL	US
+S2	S1-714732996	Optimal Xsolla Inc	7821 Winchester Grade Road, Berkeley Springs, WV	US	S2-177666574	Optimal Xsola Inc	7821 Winchester Grade Rd, BERKELEY SPRINGS, WV	US
+S3	S1-765202294	Baskerville, Smith & Louden Inc	57 Crows Nest Road, Unit Apartment 4, Tuxedo Park, NY	US	S3-970130367	lnc Baskerville Somith & Lóuden	#57 Crows Nest Rd, # Apartment 4, Tuxedo Park, New York	US
+S3	S1-898270036	Bonilla's Reliable Couture	2705 Greensprings Road, Bentonville, AR	US	S3-743413782	#boni1lasreliable	2705 Greensprings Rd, Bentonville, Arkansas	US
+S3	S1-927521622	Dynamic Power Private Limited	Seaview Towers, 12/9, Krishnan Koil St., Phaseii 6Th Floor, Room No.6B, Chennai-600 001, Chennai, Tamil Nadu	India	S3-824983457	Dynamic Power Private Ltd	Seaview Towers, 12/9, Krishnan Koil St., Phaseii 6Th Floor, Room No.6b, Chennai, Chennai-600 001, தமிழ்நாடு	India
+S3	S1-845768271	Vaibhav & Sons Pvt Ltd	10-5-23/11, Ahmed Nagar, Masab Tank, Asifnagar, Hyderabad, Telangana	India	S3-1421043	Vaibhav & Sons Pvt	10-5-23/11, Ahmed Nagar, Masab Tank, Asifnagar, Hyderabad, తెలంగాణ	India
+S3	S1-10054626	Smart Energy Private Limited	14 B Krishna Nagar Gopalpura Bye Pass, Jaipur, Rajasthan	India	S3-276292496	SMART ENERGY PRIVATE LIMITED	14 B Krishna Nagar Gopalpura Bye Pass, Jaipur, RJ	India
+S3	S1-792200315	Laxmi Management Limited	347, 10Th B Main Road, Jayanagar 3Rd Block, Bangalore., Bangalore, Karnataka	India	S3-696387991	Fluxbrix t/a Laxmi Management Limited	347, 10Th B Main Road, Jayanagar 3Rd Block, Bangalore., Bangalore, Karnataka	India
+S3	S1-212186979	CC Dynamic	6 Pleasant Avenue, Southampton, NY	US	S3-614767694	CC Center	006 Pleasant Avenue, Westhampton, New York	US
+S3	S1-659946576	Krishidhan &consultancy (India) Corp	Flat No. A-26, Plot No- 43 Bathla Apartment, I. P. Extension Patparganj, Delhi, East Delhi, Delhi	India	S3-691120701	Smt Krishidhan &Consultancy (India) Corp	Flat No. A-##26, Plot No- 43 Bathla Apartment, I. P. Extension Patparganj, East Delhi, Delhi, DL	India
+S3	S1-965803895	Heena App Private Limited	Plot No C-25, Second Floor B.K.Kaul Nagar, Ajmer, Rajasthan	India	S3-195918041	Heena App Limited Center		India
+S3	S1-552324487	New East Management Private Limited	57/7/H/45 Bt Road, Kolkata, Howrah, West Bengal	India	S3-144880940	*** New East Management Private Limited	57/7/H/45 Bt Road, Kolkata, Howrah, WB	India
+S3	S1-221620270	Seven Services Pvt Ltd	Sierra Cartel, No.1207/343, 1St Floor 9Th Main Road, Sector 7, Hsr Layout, Bengaluru, Bangalore, Karnataka	India	S3-575766331	Seven Services Pvt | www.sevenserv.com	Bengaluru, Sierra Cartel, KA, Bangalore	India
+S3	S1-954165483	Smith Express Equipment LLC	Sherman, 3917 Stargaze Trail, TX	US	S3-557723315	5mith Efxrgerss Equipment LLC	3917 Stargaze Trl, Sherman, Texas	US
+S3	S1-612013852	Best Care Private Limited	05151, Ats Advantage, Indirapuram, Ghaziabad, Uttar Pradesh	India	S3-786312837	Best Care Private-Ltd		India
+S3	S1-754781850	Mithila India Private Limited	H No 13, Gf, Dda Mig West Punjabi Bagh, New Delhi, West Delhi, Delhi	India	S3-36030026	Mithila India Private	H No 13, Gf, Dda Mig West Punjabi Bagh, Sonipat, West Delhi, DL	India
+S3	S1-408443743	Products Ic Solutions Limited	6/1, 2Nd Floor, P K Building Trichy Road, Singanallur, Coimbatore, Tamil Nadu	India	S3-176124026	Products Ic Solutions Ltd		India

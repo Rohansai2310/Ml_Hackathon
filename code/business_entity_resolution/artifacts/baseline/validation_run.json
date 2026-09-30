@@ -1,0 +1,43 @@
+{
+  "configuration_sha256": "0309e9edcd0b14f23da46e93d2819aa84828fb743f33eb7e443bad2ce4e37aca",
+  "correct_singletons": 8590,
+  "error_counts": {
+    "blocking_miss": 142440,
+    "false_positive": 507869,
+    "linked_predicted_singleton": 96627,
+    "model_miss": 336954,
+    "singleton_false_merge": 26625
+  },
+  "fn": 479394,
+  "fp": 507869,
+  "macro_f0_5": 0.5162890578506909,
+  "peak_rss_mb": 1105.1484375,
+  "precision_diag": 0.3591954566846971,
+  "predicted_links": 792549,
+  "predicted_singletons": 42786,
+  "prediction_counts": {
+    "max_predictions": 394,
+    "mean_predictions": 3.591345957776539,
+    "p95_predictions": 14,
+    "total_predicted_links": 792549
+  },
+  "recall_diag": 0.3725817132895505,
+  "runtime_seconds": 1205.460156176996,
+  "scoring": {
+    "pairs_per_second": 24985.203702532403,
+    "pairs_scored": 28558762,
+    "peak_rss_mb": 1105.1484375,
+    "s1_entities": 220683,
+    "seconds": 1143.0269826899748,
+    "target_queries": 219991,
+    "target_rows_fetched": 27397730
+  },
+  "singleton_accuracy": 0.6935249475213952,
+  "singleton_false_merges": 3796,
+  "tp": 284680,
+  "true_links": 764074,
+  "true_singletons": 12386,
+  "validation_s1_count": 220683,
+  "threshold_s2": 90,
+  "threshold_s3": 90
+}

@@ -1,0 +1,416 @@
+{
+  "address_index": {
+    "build_seconds": "1147.728",
+    "index_bytes": 2126626816,
+    "max_df": "20000",
+    "posting_rows": "26101606",
+    "query_terms": "4",
+    "reused": true,
+    "skipped_df_terms": "269",
+    "source_targets": "10320219"
+  },
+  "address_k": 20,
+  "address_max_target_df": 20000,
+  "address_query_terms": 4,
+  "address_retrieval": {
+    "bytes": 1989078,
+    "max_single_token_postings": 19949,
+    "pairs": 197786,
+    "path": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/retrieval_diagnosis/phase6d/address_top20.tsv.gz",
+    "peak_rss_mb": 776.91015625,
+    "queries": 9945,
+    "runtime_seconds": 116.22186159598641
+  },
+  "base_v1": {
+    "blocking_misses": 3188,
+    "candidate_pairs": 657231,
+    "candidate_recall": 0.8129437305638678,
+    "max": 3096,
+    "mean": 131.4462,
+    "median": 88.0,
+    "p90": 308.10000000000036,
+    "p95": 398.0,
+    "p99": 576.0100000000002,
+    "recovered_links": 13855,
+    "s1_entities": 5000,
+    "source": {
+      "S2": {
+        "recall": 0.8027210884353742,
+        "recovered": 6608,
+        "true_links": 8232
+      },
+      "S3": {
+        "recall": 0.822494609011463,
+        "recovered": 7247,
+        "true_links": 8811
+      }
+    },
+    "true_links": 17043,
+    "zero_candidate_pct": 0.52
+  },
+  "char_k": 50,
+  "configuration_resource_note": "Route times are measured separately, then summed as a cost estimate; token-route RSS was not measured. RSS values are maxima observed for included address/character routes, not a concurrent union measurement.",
+  "configurations": {
+    "V1": {
+      "added_pairs": 0,
+      "blocking_misses": 3188,
+      "candidate_pairs": 657231,
+      "candidate_recall": 0.8129437305638678,
+      "growth_pct": 0.0,
+      "max": 3096,
+      "max_measured_route_rss_mb": null,
+      "mean": 131.4462,
+      "median": 88.0,
+      "p90": 308.10000000000036,
+      "p95": 398.0,
+      "p99": 576.0100000000002,
+      "recovered_links": 13855,
+      "route_runtime_sum_seconds_estimate": 0,
+      "s1_entities": 5000,
+      "source": {
+        "S2": {
+          "recall": 0.8027210884353742,
+          "recovered": 6608,
+          "true_links": 8232
+        },
+        "S3": {
+          "recall": 0.822494609011463,
+          "recovered": 7247,
+          "true_links": 8811
+        }
+      },
+      "true_links": 17043,
+      "zero_candidate_pct": 0.52
+    },
+    "V1+addressK20": {
+      "added_pairs": 183211,
+      "blocking_misses": 1120,
+      "candidate_pairs": 840442,
+      "candidate_recall": 0.9342838702106436,
+      "growth_pct": 27.876195736354493,
+      "max": 3130,
+      "max_measured_route_rss_mb": 776.91015625,
+      "mean": 168.0884,
+      "median": 125.0,
+      "p90": 346.0,
+      "p95": 433.0500000000002,
+      "p99": 609.0600000000013,
+      "recovered_links": 15923,
+      "route_runtime_sum_seconds_estimate": 116.22186159598641,
+      "s1_entities": 5000,
+      "source": {
+        "S2": {
+          "recall": 0.9339164237123421,
+          "recovered": 7688,
+          "true_links": 8232
+        },
+        "S3": {
+          "recall": 0.9346271705822268,
+          "recovered": 8235,
+          "true_links": 8811
+        }
+      },
+      "true_links": 17043,
+      "zero_candidate_pct": 0.0
+    },
+    "V1+char01K50": {
+      "added_pairs": 254422,
+      "blocking_misses": 2972,
+      "candidate_pairs": 911653,
+      "candidate_recall": 0.8256175555946723,
+      "growth_pct": 38.71119895440112,
+      "max": 3096,
+      "max_measured_route_rss_mb": 2762.27734375,
+      "mean": 182.3306,
+      "median": 137.0,
+      "p90": 336.0,
+      "p95": 423.0500000000002,
+      "p99": 584.0,
+      "recovered_links": 14071,
+      "route_runtime_sum_seconds_estimate": 68.79825363896089,
+      "s1_entities": 5000,
+      "source": {
+        "S2": {
+          "recall": 0.8141399416909622,
+          "recovered": 6702,
+          "true_links": 8232
+        },
+        "S3": {
+          "recall": 0.836340937464533,
+          "recovered": 7369,
+          "true_links": 8811
+        }
+      },
+      "true_links": 17043,
+      "zero_candidate_pct": 0.08
+    },
+    "V1+char05K50": {
+      "added_pairs": 345612,
+      "blocking_misses": 2634,
+      "candidate_pairs": 1002843,
+      "candidate_recall": 0.8454497447632459,
+      "growth_pct": 52.58607704140553,
+      "max": 3096,
+      "max_measured_route_rss_mb": 4450.8125,
+      "mean": 200.5686,
+      "median": 152.0,
+      "p90": 351.10000000000036,
+      "p95": 456.0,
+      "p99": 629.0,
+      "recovered_links": 14409,
+      "route_runtime_sum_seconds_estimate": 407.3371507449774,
+      "s1_entities": 5000,
+      "source": {
+        "S2": {
+          "recall": 0.8336977648202138,
+          "recovered": 6863,
+          "true_links": 8232
+        },
+        "S3": {
+          "recall": 0.8564294631710362,
+          "recovered": 7546,
+          "true_links": 8811
+        }
+      },
+      "true_links": 17043,
+      "zero_candidate_pct": 0.0
+    },
+    "V1+tokenK20": {
+      "added_pairs": 107227,
+      "blocking_misses": 2889,
+      "candidate_pairs": 764458,
+      "candidate_recall": 0.8304875902129907,
+      "growth_pct": 16.314963840719624,
+      "max": 3096,
+      "max_measured_route_rss_mb": null,
+      "mean": 152.8916,
+      "median": 108.0,
+      "p90": 320.10000000000036,
+      "p95": 411.10000000000036,
+      "p99": 589.0,
+      "recovered_links": 14154,
+      "route_runtime_sum_seconds_estimate": 67.233,
+      "s1_entities": 5000,
+      "source": {
+        "S2": {
+          "recall": 0.8204567541302236,
+          "recovered": 6754,
+          "true_links": 8232
+        },
+        "S3": {
+          "recall": 0.839859266825559,
+          "recovered": 7400,
+          "true_links": 8811
+        }
+      },
+      "true_links": 17043,
+      "zero_candidate_pct": 0.02
+    },
+    "V1+tokenK20+addressK20": {
+      "added_pairs": 289800,
+      "blocking_misses": 995,
+      "candidate_pairs": 947031,
+      "candidate_recall": 0.9416182596960629,
+      "growth_pct": 44.094085641121616,
+      "max": 3130,
+      "max_measured_route_rss_mb": 776.91015625,
+      "mean": 189.4062,
+      "median": 145.0,
+      "p90": 357.10000000000036,
+      "p95": 449.0,
+      "p99": 624.0100000000002,
+      "recovered_links": 16048,
+      "route_runtime_sum_seconds_estimate": 183.45486159598642,
+      "s1_entities": 5000,
+      "source": {
+        "S2": {
+          "recall": 0.9415694849368319,
+          "recovered": 7751,
+          "true_links": 8232
+        },
+        "S3": {
+          "recall": 0.9416638293042787,
+          "recovered": 8297,
+          "true_links": 8811
+        }
+      },
+      "true_links": 17043,
+      "zero_candidate_pct": 0.0
+    },
+    "V1+tokenK20+addressK20+char01K50": {
+      "added_pairs": 539825,
+      "blocking_misses": 952,
+      "candidate_pairs": 1197056,
+      "candidate_recall": 0.9441412896790471,
+      "growth_pct": 82.13626563567452,
+      "max": 3130,
+      "max_measured_route_rss_mb": 2762.27734375,
+      "mean": 239.4112,
+      "median": 195.0,
+      "p90": 385.0,
+      "p95": 480.0,
+      "p99": 646.0300000000007,
+      "recovered_links": 16091,
+      "route_runtime_sum_seconds_estimate": 252.2531152349473,
+      "s1_entities": 5000,
+      "source": {
+        "S2": {
+          "recall": 0.9431486880466472,
+          "recovered": 7764,
+          "true_links": 8232
+        },
+        "S3": {
+          "recall": 0.9450686641697877,
+          "recovered": 8327,
+          "true_links": 8811
+        }
+      },
+      "true_links": 17043,
+      "zero_candidate_pct": 0.0
+    },
+    "V1+tokenK20+addressK20+char05K50": {
+      "added_pairs": 611705,
+      "blocking_misses": 882,
+      "candidate_pairs": 1268936,
+      "candidate_recall": 0.9482485477908819,
+      "growth_pct": 93.0730595483171,
+      "max": 3130,
+      "max_measured_route_rss_mb": 4450.8125,
+      "mean": 253.7872,
+      "median": 205.0,
+      "p90": 398.0,
+      "p95": 505.0500000000002,
+      "p99": 700.0200000000004,
+      "recovered_links": 16161,
+      "route_runtime_sum_seconds_estimate": 590.7920123409638,
+      "s1_entities": 5000,
+      "source": {
+        "S2": {
+          "recall": 0.9471574344023324,
+          "recovered": 7797,
+          "true_links": 8232
+        },
+        "S3": {
+          "recall": 0.9492679605039156,
+          "recovered": 8364,
+          "true_links": 8811
+        }
+      },
+      "true_links": 17043,
+      "zero_candidate_pct": 0.0
+    }
+  },
+  "disk_bytes": {
+    "address_index": 2126626816,
+    "address_pairs": 1989078,
+    "char01_index": 906995799,
+    "char05_index": 1695028022
+  },
+  "exclusive_true_links_per_route": {
+    "address_k20": 1632,
+    "char_01": 10,
+    "char_05": 80,
+    "token_k20": 33
+  },
+  "optimized_char_01": {
+    "batch_size": 64,
+    "bytes": 3530568,
+    "load_seconds": 9.610068564012181,
+    "output": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/retrieval_diagnosis/phase6d/char01_fast_top50.tsv.gz",
+    "peak_rss_mb": 2762.27734375,
+    "retrieval_seconds": 8.547343312064186,
+    "source_specific_pairs": 378862,
+    "threads": 1,
+    "top_k": 50,
+    "total_seconds": 66.13631992397131,
+    "vectorization_seconds": 0.21219901618314907
+  },
+  "optimized_char_05": {
+    "batch_size": 64,
+    "bytes": 4994347,
+    "load_seconds": 18.997490105975885,
+    "output": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/retrieval_diagnosis/phase6d/char05_fast_top50.tsv.gz",
+    "peak_rss_mb": 4450.8125,
+    "retrieval_seconds": 59.89565167436376,
+    "source_specific_pairs": 496177,
+    "threads": 1,
+    "top_k": 50,
+    "total_seconds": 403.9207772859954,
+    "vectorization_seconds": 0.22757021093275398
+  },
+  "pairwise_route_recovery_intersections": {
+    "address_k20&char_01": 158,
+    "address_k20&char_05": 349,
+    "char_01&char_05": 192,
+    "token_k20&address_k20": 174,
+    "token_k20&char_01": 33,
+    "token_k20&char_05": 192
+  },
+  "peak_rss_mb": 4450.8125,
+  "phase": "6D tune-sample only",
+  "postprocess_sort": {
+    "char01": {
+      "chunk_rows": 50000,
+      "pairs": 378862,
+      "sort_seconds": 2.6619337149895728
+    },
+    "char05": {
+      "chunk_rows": 50000,
+      "pairs": 496177,
+      "sort_seconds": 3.4163734589819796
+    }
+  },
+  "projection_note": "Linear projections from measured 5K single-thread route times; character index load counted once. Token K20 uses the prior 67.233s K50 posting run as a conservative proxy. Excludes one-time address-index build, candidate union/write overhead, and hardware contention.",
+  "quality_gate_over_90_pct": true,
+  "recovered_true_links_per_route": {
+    "address_k20": 2068,
+    "char_01": 216,
+    "char_05": 554,
+    "token_k20": 299
+  },
+  "reference_equivalence": {
+    "char01_exact_rows": 378862,
+    "char05_exact_rows": 496177,
+    "pair_rank_score_order_disagreements": 0
+  },
+  "route_runtime_projections": {
+    "test_1732545": {
+      "address_only_seconds": 40271.921039763656,
+      "char01_fast_seconds": 20518.848890699413,
+      "char05_fast_seconds": 134582.18495846575,
+      "token_k20_plus_address_plus_char05_seconds": 198150.9455952294,
+      "token_k20_plus_address_seconds": 63568.76063676366
+    },
+    "tune_100k": {
+      "address_only_seconds": 2324.437231919728,
+      "char01_fast_seconds": 1193.3737700629863,
+      "char05_fast_seconds": 7785.790702886006,
+      "token_k20_plus_address_plus_char05_seconds": 11454.887934805734,
+      "token_k20_plus_address_seconds": 3669.097231919728
+    },
+    "validation_220683": {
+      "address_only_seconds": 5129.637816517414,
+      "char01_fast_seconds": 2621.975317942993,
+      "char05_fast_seconds": 17158.989755865332,
+      "token_k20_plus_address_plus_char05_seconds": 25256.063600182744,
+      "token_k20_plus_address_seconds": 8097.073844317414
+    }
+  },
+  "sample_runtime_projection_seconds": {
+    "test_1732545": 206152.3291682689,
+    "tune_100k": 11898.815278579714,
+    "validation_220683": 26258.66252122807
+  },
+  "sample_size": 5000,
+  "sample_total_runtime_seconds": 594.9407639289857,
+  "seed": 20260925,
+  "sparse_equivalence": {
+    "char01_pairs_exact": 378862,
+    "char05_pairs_exact": 496177,
+    "pair_rank_score_order_disagreements": 0
+  },
+  "sparse_topn_threads": 1,
+  "token_route_rank_cap": 20,
+  "tune_sample_ids_sha256": "8045d1e2a40f84704cf29192a034f4deeec387c294e661134c0b7ef5abbde1ab",
+  "version": "1.2.0"
+}

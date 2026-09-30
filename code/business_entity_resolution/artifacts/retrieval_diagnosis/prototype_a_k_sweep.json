@@ -1,0 +1,117 @@
+{
+  "prototype": "A candidate top-K sensitivity on same fixed 5K sample",
+  "sweep": [
+    {
+      "additional_candidate_pairs": 25077,
+      "candidate_pairs": 682308,
+      "candidate_recall": 0.8146453089244852,
+      "extra_candidates_per_new_true_link": 864.7241379310345,
+      "k_per_source": 5,
+      "max": 3096,
+      "mean": 136.4616,
+      "median": 93.0,
+      "misses_remaining": 3159,
+      "p90": 312.0,
+      "p95": 400.0500000000002,
+      "p99": 579.0,
+      "s2_recall": 0.8040573372206026,
+      "s3_recall": 0.8245375099307684,
+      "v1_misses_recovered": 29
+    },
+    {
+      "additional_candidate_pairs": 53856,
+      "candidate_pairs": 711087,
+      "candidate_recall": 0.8150560347356686,
+      "extra_candidates_per_new_true_link": 1496.0,
+      "k_per_source": 10,
+      "max": 3096,
+      "mean": 142.2174,
+      "median": 98.0,
+      "misses_remaining": 3152,
+      "p90": 315.10000000000036,
+      "p95": 408.0,
+      "p99": 579.0300000000007,
+      "s2_recall": 0.8041788143828961,
+      "s3_recall": 0.8252184769038702,
+      "v1_misses_recovered": 36
+    },
+    {
+      "additional_candidate_pairs": 115844,
+      "candidate_pairs": 773075,
+      "candidate_recall": 0.8157601361262689,
+      "extra_candidates_per_new_true_link": 2413.4166666666665,
+      "k_per_source": 20,
+      "max": 3096,
+      "mean": 154.615,
+      "median": 109.0,
+      "misses_remaining": 3140,
+      "p90": 321.0,
+      "p95": 413.0,
+      "p99": 587.0200000000004,
+      "s2_recall": 0.8049076773566569,
+      "s3_recall": 0.825899443876972,
+      "v1_misses_recovered": 48
+    },
+    {
+      "additional_candidate_pairs": 181461,
+      "candidate_pairs": 838692,
+      "candidate_recall": 0.8161708619374524,
+      "extra_candidates_per_new_true_link": 3299.2909090909093,
+      "k_per_source": 30,
+      "max": 3096,
+      "mean": 167.7384,
+      "median": 123.5,
+      "misses_remaining": 3133,
+      "p90": 328.0,
+      "p95": 420.10000000000036,
+      "p99": 599.0400000000009,
+      "s2_recall": 0.8052721088435374,
+      "s3_recall": 0.8263534218590398,
+      "v1_misses_recovered": 55
+    },
+    {
+      "additional_candidate_pairs": 321022,
+      "candidate_pairs": 978253,
+      "candidate_recall": 0.8164642375168691,
+      "extra_candidates_per_new_true_link": 5350.366666666667,
+      "k_per_source": 50,
+      "max": 3096,
+      "mean": 195.6506,
+      "median": 149.0,
+      "misses_remaining": 3128,
+      "p90": 342.0,
+      "p95": 448.0500000000002,
+      "p99": 631.0200000000004,
+      "s2_recall": 0.8056365403304179,
+      "s3_recall": 0.8265804108500737,
+      "v1_misses_recovered": 60
+    }
+  ],
+  "v1": {
+    "blocking_misses": 3188,
+    "candidate_pairs": 657231,
+    "candidate_recall": 0.8129437305638678,
+    "max": 3096,
+    "mean": 131.4462,
+    "median": 88.0,
+    "p90": 308.10000000000036,
+    "p95": 398.0,
+    "p99": 576.0100000000002,
+    "recovered_links": 13855,
+    "s1_entities": 5000,
+    "source": {
+      "S2": {
+        "recall": 0.8027210884353742,
+        "recovered": 6608,
+        "true_links": 8232
+      },
+      "S3": {
+        "recall": 0.822494609011463,
+        "recovered": 7247,
+        "true_links": 8811
+      }
+    },
+    "true_links": 17043,
+    "zero_candidate_pct": 0.52
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "address_candidates": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/validation_evaluation/address_top10_validation.tsv.gz",
+  "address_index_reused": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/retrieval_diagnosis/phase6d/address_postings.sqlite",
+  "address_k": 10,
+  "frozen_artifacts_unchanged": true,
+  "peak_rss_mb": 604.453125,
+  "retrieval": {
+    "bytes": 46557485,
+    "max_single_token_postings": 19949,
+    "pairs": 4381496,
+    "path": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/validation_evaluation/address_top10_validation.tsv.gz",
+    "peak_rss_mb": 604.453125,
+    "queries": 439331,
+    "runtime_seconds": 4034.1909565389506
+  },
+  "runtime_seconds": 4034.192584777018,
+  "stage": "prepare-address",
+  "v1_candidates_reused": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/blocking/v1_validation_candidates.tsv.gz",
+  "v1_metadata_reused": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/blocking/v1_validation_metadata.tsv.gz",
+  "validation_s1_count": 220683
+}

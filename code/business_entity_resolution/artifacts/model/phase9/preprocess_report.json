@@ -1,0 +1,18 @@
+{
+  "cache_paths": {
+    "S2": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model/phase9/score_cache_s2.npz",
+    "S3": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model/phase9/score_cache_s3.npz"
+  },
+  "candidate_membership": "exact V1 union Address K10 match",
+  "peak_rss_mb": 692.76953125,
+  "rows": {
+    "S2": 7227686,
+    "S3": 7323701
+  },
+  "runtime_seconds": 79.3487896110164,
+  "s1_count": 100000,
+  "score_paths": {
+    "S2": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model/phase8/tune_scores_s2.tsv.gz",
+    "S3": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model/phase8/tune_scores_s3.tsv.gz"
+  }
+}

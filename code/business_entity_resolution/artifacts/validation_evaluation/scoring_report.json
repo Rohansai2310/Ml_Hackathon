@@ -1,0 +1,23 @@
+{
+  "candidate_membership": "scored pair set equals V1 union Address K10",
+  "candidate_pairs": 32332263,
+  "frozen_artifacts_unchanged": true,
+  "peak_rss_mb": 1159.14453125,
+  "rows": {
+    "S2": 16098984,
+    "S3": 16233279
+  },
+  "runtime_seconds": 2416.978143631015,
+  "score_bytes": {
+    "S2": 185200911,
+    "S3": 191767388
+  },
+  "score_paths": {
+    "S2": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/validation_evaluation/validation_scores_s2.tsv.gz",
+    "S3": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/validation_evaluation/validation_scores_s3.tsv.gz"
+  },
+  "stage": "score",
+  "target_queries": 221759,
+  "target_rows_fetched": 31107617,
+  "validation_s1_count": 220683
+}

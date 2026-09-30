@@ -1,0 +1,92 @@
+# Python bytecode and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+
+# Python build, test, and lint outputs
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local secrets and machine-specific settings
+.env
+.env.*
+!.env.example
+
+# OS and editor metadata
+.DS_Store
+Thumbs.db
+__MACOSX/
+._*
+.idea/
+.vscode/
+# Supplied challenge dataset (keep local; do not commit)
+/6ab10eb3b23ba_student_resource/student_resource/dataset/
+
+# Large, reproducible Phase 4 blocking artifacts
+/code/business_entity_resolution/artifacts/blocking/*.sqlite*
+/code/business_entity_resolution/artifacts/blocking/*.tsv.gz
+/code/business_entity_resolution/artifacts/diagnostics/blocking_miss_ids_v1.tsv.gz
+/code/business_entity_resolution/artifacts/**/*.log
+/code/business_entity_resolution/artifacts/blocking_v1_run.log
+
+# Reproducible Phase 5 pair-level caches and tune candidates
+/code/business_entity_resolution/artifacts/baseline/*.tsv.gz
+
+# Reproducible Phase 6 sparse indexes and candidate caches
+/code/business_entity_resolution/artifacts/tfidf_v2_index/
+/code/business_entity_resolution/artifacts/tfidf_v2_tune/
+/code/business_entity_resolution/artifacts/tfidf_v2_benchmark/
+/code/business_entity_resolution/artifacts/blocking/v2_validation_*.tsv.gz
+/code/business_entity_resolution/artifacts/blocking/v2_validation_tfidf_top50.tsv.gz
+
+# Phase 6B/6C reproducible retrieval prototype indexes and pair files
+/code/business_entity_resolution/artifacts/retrieval_diagnosis/tfidf_index_df*/
+/code/business_entity_resolution/artifacts/retrieval_diagnosis/fts_target_index.sqlite
+/code/business_entity_resolution/artifacts/retrieval_diagnosis/**/*.tsv.gz
+/code/business_entity_resolution/artifacts/retrieval_diagnosis/**/*.npz
+/code/business_entity_resolution/artifacts/retrieval_diagnosis/phase6d/*.sqlite
+
+# Reproducible Phase 7 candidate and pair datasets (retain reports and subset IDs)
+/code/business_entity_resolution/artifacts/model_data/phase7/*.tsv.gz
+
+# Reproducible Phase 9 score caches and tune predictions (retain policy and reports)
+/code/business_entity_resolution/artifacts/model/phase9/*.npz
+/code/business_entity_resolution/artifacts/model/phase9/*.tsv.gz
+
+# Test-only Phase 12 indexes, benchmarks, candidates, and model-score shards
+/code/business_entity_resolution/artifacts/test_inference/
+
+# Generated challenge submission files
+/output/
+
+# Interrupted atomic-output files
+*.tmp
+
+# Reproducible held-out validation candidates, predictions, and score outputs
+/code/business_entity_resolution/artifacts/validation_evaluation/*.tsv.gz
+
+# Phase 10 read-only diagnostics, including bounded raw-record examples
+/code/business_entity_resolution/artifacts/phase10_error_analysis/
+
+# Phase 11 reproducible experiment models, scores, and manifests
+/code/business_entity_resolution/artifacts/phase11_experiments/
+
+# Local Phase 11.2A policy experiment outputs
+/code/business_entity_resolution/artifacts/phase112_group_policy/
+
+# Local Phase 11.3 OOF scores, reranker models, and diagnostics
+/code/business_entity_resolution/artifacts/phase113_reranker/

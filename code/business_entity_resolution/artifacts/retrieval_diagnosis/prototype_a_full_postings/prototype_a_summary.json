@@ -1,0 +1,102 @@
+{
+  "additional_candidate_pairs": 297458,
+  "additional_true_links_recovered": 399,
+  "common_tokens_skipped": 3611,
+  "existing_tfidf_k50_on_same_sample": {
+    "blocking_misses": 2972,
+    "candidate_pairs": 911653,
+    "candidate_recall": 0.8256175555946723,
+    "max": 3096,
+    "mean": 182.3306,
+    "median": 137.0,
+    "p90": 336.0,
+    "p95": 423.0500000000002,
+    "p99": 584.0,
+    "recovered_links": 14071,
+    "s1_entities": 5000,
+    "source": {
+      "S2": {
+        "recall": 0.8141399416909622,
+        "recovered": 6702,
+        "true_links": 8232
+      },
+      "S3": {
+        "recall": 0.836340937464533,
+        "recovered": 7369,
+        "true_links": 8811
+      }
+    },
+    "true_links": 17043,
+    "zero_candidate_pct": 0.08
+  },
+  "extra_candidates_per_new_true_link": 745.5087719298245,
+  "index_bytes": 8210599936,
+  "max_postings_fetched_per_term": 20000,
+  "max_target_document_frequency": 20000,
+  "output_bytes": 2843529,
+  "output_file": "artifacts/retrieval_diagnosis/prototype_a_full_postings/prototype_a_added_candidates.tsv.gz",
+  "posting_lookup_seconds": 38.981,
+  "posting_rows_examined": 108546670,
+  "prototype": "A_inverted_lexical_bm25_like_name_tokens",
+  "prototype_union": {
+    "blocking_misses": 2789,
+    "candidate_pairs": 954689,
+    "candidate_recall": 0.8363551018013261,
+    "max": 3096,
+    "mean": 190.9378,
+    "median": 143.0,
+    "p90": 335.10000000000036,
+    "p95": 437.2000000000007,
+    "p99": 631.0200000000004,
+    "recovered_links": 14254,
+    "s1_entities": 5000,
+    "source": {
+      "S2": {
+        "recall": 0.826287657920311,
+        "recovered": 6802,
+        "true_links": 8232
+      },
+      "S3": {
+        "recall": 0.8457609805924413,
+        "recovered": 7452,
+        "true_links": 8811
+      }
+    },
+    "true_links": 17043,
+    "zero_candidate_pct": 0.02
+  },
+  "query_terms_per_source": 4,
+  "sample_size": 5000,
+  "seed": 20260925,
+  "throughput_s1_per_second": 74.36868256920641,
+  "token_term_lookups": 21296,
+  "top_k_per_source": 50,
+  "total_runtime_seconds": 67.233,
+  "v1": {
+    "blocking_misses": 3188,
+    "candidate_pairs": 657231,
+    "candidate_recall": 0.8129437305638678,
+    "max": 3096,
+    "mean": 131.4462,
+    "median": 88.0,
+    "p90": 308.10000000000036,
+    "p95": 398.0,
+    "p99": 576.0100000000002,
+    "recovered_links": 13855,
+    "s1_entities": 5000,
+    "source": {
+      "S2": {
+        "recall": 0.8027210884353742,
+        "recovered": 6608,
+        "true_links": 8232
+      },
+      "S3": {
+        "recall": 0.822494609011463,
+        "recovered": 7247,
+        "true_links": 8811
+      }
+    },
+    "true_links": 17043,
+    "zero_candidate_pct": 0.52
+  }
+}

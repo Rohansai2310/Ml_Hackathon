@@ -1,0 +1,464 @@
+{
+  "cache_bytes": 23052958,
+  "cache_path": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model/phase8/training_features_s3.npz",
+  "feature_count": 48,
+  "feature_quality": {
+    "constant_features": [
+      "name_missing_left",
+      "name_missing_right",
+      "name_missing_both",
+      "address_missing_left",
+      "address_missing_both",
+      "country_equal",
+      "country_missing_left",
+      "country_missing_right"
+    ],
+    "feature_summary": {
+      "address_exact": {
+        "max": 1.0,
+        "mean": 0.011062969308111226,
+        "min": 0.0,
+        "negative_mean": 0.001697137257192552,
+        "positive_mean": 0.04562819606950815
+      },
+      "address_length_ratio": {
+        "max": 1.0,
+        "mean": 0.7852928848986751,
+        "min": 0.0,
+        "negative_mean": 0.7785059154970961,
+        "positive_mean": 0.8103490503669117
+      },
+      "address_missing_both": {
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "negative_mean": 0.0,
+        "positive_mean": 0.0
+      },
+      "address_missing_left": {
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "negative_mean": 0.0,
+        "positive_mean": 0.0
+      },
+      "address_missing_right": {
+        "max": 1.0,
+        "mean": 0.0154927527721253,
+        "min": 0.0,
+        "negative_mean": 0.010773414328641057,
+        "positive_mean": 0.03290978551155076
+      },
+      "address_rank": {
+        "max": 10.0,
+        "mean": 2.522304661868373,
+        "min": 0.0,
+        "negative_mean": 2.759038959521816,
+        "positive_mean": 1.6486209745991065
+      },
+      "address_rank_log1p": {
+        "max": 2.397895336151123,
+        "mean": 0.9950642318851617,
+        "min": 0.0,
+        "negative_mean": 1.0531740144592323,
+        "positive_mean": 0.7806728497029601
+      },
+      "address_rank_missing": {
+        "max": 1.0,
+        "mean": 0.29998187235585333,
+        "min": 0.0,
+        "negative_mean": 0.30495252558685904,
+        "positive_mean": 0.281637345660531
+      },
+      "address_rank_reciprocal": {
+        "max": 1.0,
+        "mean": 0.2940407541574699,
+        "min": 0.0,
+        "negative_mean": 0.24856057280968294,
+        "positive_mean": 0.46183205671926364
+      },
+      "address_ratio": {
+        "max": 1.0,
+        "mean": 0.5621279574309936,
+        "min": 0.0,
+        "negative_mean": 0.5139059411383343,
+        "positive_mean": 0.7400985679215761
+      },
+      "address_score": {
+        "max": 62.62587356567383,
+        "mean": 14.018045533179334,
+        "min": 0.0,
+        "negative_mean": 12.746640862797973,
+        "positive_mean": 18.710313653616424
+      },
+      "address_shared_fraction_left": {
+        "max": 1.0,
+        "mean": 0.3979437449140668,
+        "min": 0.0,
+        "negative_mean": 0.3149949125763514,
+        "positive_mean": 0.7040780075975419
+      },
+      "address_shared_fraction_right": {
+        "max": 1.0,
+        "mean": 0.3879181695867639,
+        "min": 0.0,
+        "negative_mean": 0.29827034611209696,
+        "positive_mean": 0.7187773383058754
+      },
+      "address_shared_token_count": {
+        "max": 31.0,
+        "mean": 3.2861308203141957,
+        "min": 0.0,
+        "negative_mean": 2.6248077334942854,
+        "positive_mean": 5.72678770314128
+      },
+      "address_token_jaccard": {
+        "max": 1.0,
+        "mean": 0.285017865393705,
+        "min": 0.0,
+        "negative_mean": 0.2052389355224107,
+        "positive_mean": 0.5794127806893545
+      },
+      "address_top_candidate": {
+        "max": 1.0,
+        "mean": 0.12709521098279916,
+        "min": 0.0,
+        "negative_mean": 0.07751017308853021,
+        "positive_mean": 0.3100920947054526
+      },
+      "candidate_count_log1p": {
+        "max": 7.374629020690918,
+        "mean": 3.9107964871545855,
+        "min": 0.6931471824645996,
+        "negative_mean": 3.9126029737473065,
+        "positive_mean": 3.9040136197143225
+      },
+      "candidate_count_source": {
+        "max": 1594.0,
+        "mean": 74.03156890930306,
+        "min": 1.0,
+        "negative_mean": 74.0630342088355,
+        "positive_mean": 73.91544412641765
+      },
+      "country_equal": {
+        "max": 1.0,
+        "mean": 1.0,
+        "min": 1.0,
+        "negative_mean": 1.0,
+        "positive_mean": 1.0
+      },
+      "country_missing_left": {
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "negative_mean": 0.0,
+        "positive_mean": 0.0
+      },
+      "country_missing_right": {
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "negative_mean": 0.0,
+        "positive_mean": 0.0
+      },
+      "from_address": {
+        "max": 1.0,
+        "mean": 0.7000181276441467,
+        "min": 0.0,
+        "negative_mean": 0.695047474413141,
+        "positive_mean": 0.718362654339469
+      },
+      "from_v1": {
+        "max": 1.0,
+        "mean": 0.46845917577942486,
+        "min": 0.0,
+        "negative_mean": 0.35602889351842837,
+        "positive_mean": 0.8833906180764303
+      },
+      "from_v1_and_address": {
+        "max": 1.0,
+        "mean": 0.16847730342357156,
+        "min": 0.0,
+        "negative_mean": 0.05107636793156935,
+        "positive_mean": 0.6017532724158993
+      },
+      "name_basic_exact": {
+        "max": 1.0,
+        "mean": 0.193610899054554,
+        "min": 0.0,
+        "negative_mean": 0.1796272139041945,
+        "positive_mean": 0.2452186201362858
+      },
+      "name_core_exact": {
+        "max": 1.0,
+        "mean": 0.3068103771826577,
+        "min": 0.0,
+        "negative_mean": 0.2736382339388511,
+        "positive_mean": 0.42923438042658174
+      },
+      "name_length_ratio": {
+        "max": 1.0,
+        "mean": 0.7722803485995039,
+        "min": 0.027027027681469917,
+        "negative_mean": 0.748579982625537,
+        "positive_mean": 0.8597690192449978
+      },
+      "name_missing_both": {
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "negative_mean": 0.0,
+        "positive_mean": 0.0
+      },
+      "name_missing_left": {
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "negative_mean": 0.0,
+        "positive_mean": 0.0
+      },
+      "name_missing_right": {
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "negative_mean": 0.0,
+        "positive_mean": 0.0
+      },
+      "name_prefix_agree": {
+        "max": 1.0,
+        "mean": 0.41457156206675566,
+        "min": 0.0,
+        "negative_mean": 0.3244257964863093,
+        "positive_mean": 0.7472605118501575
+      },
+      "name_ratio": {
+        "max": 1.0,
+        "mean": 0.5884633996122662,
+        "min": 0.0,
+        "negative_mean": 0.525563856418142,
+        "positive_mean": 0.8206079577850303
+      },
+      "name_shared_fraction_left": {
+        "max": 1.0,
+        "mean": 0.4241912765983484,
+        "min": 0.0,
+        "negative_mean": 0.3269834845663792,
+        "positive_mean": 0.782946961689643
+      },
+      "name_shared_fraction_right": {
+        "max": 1.0,
+        "mean": 0.40458434348456807,
+        "min": 0.0,
+        "negative_mean": 0.3161508045436804,
+        "positive_mean": 0.7309572403020436
+      },
+      "name_shared_token_count": {
+        "max": 12.0,
+        "mean": 1.059814842710772,
+        "min": 0.0,
+        "negative_mean": 0.7776815093164073,
+        "positive_mean": 2.1010466940515684
+      },
+      "name_suffix_agree": {
+        "max": 1.0,
+        "mean": 0.35686820692067495,
+        "min": 0.0,
+        "negative_mean": 0.28641706093469105,
+        "positive_mean": 0.6168728518221339
+      },
+      "name_token_jaccard": {
+        "max": 1.0,
+        "mean": 0.386377073304419,
+        "min": 0.0,
+        "negative_mean": 0.30762040992555045,
+        "positive_mean": 0.6770307971903499
+      },
+      "name_token_set_ratio": {
+        "max": 1.0,
+        "mean": 0.6054523144671127,
+        "min": 0.0,
+        "negative_mean": 0.5257015001369747,
+        "positive_mean": 0.8997841204336718
+      },
+      "name_token_sort_ratio": {
+        "max": 1.0,
+        "mean": 0.5821416486344346,
+        "min": 0.0,
+        "negative_mean": 0.5140334901684481,
+        "positive_mean": 0.8335079841331896
+      },
+      "numeric_conflict": {
+        "max": 1.0,
+        "mean": 0.5119616919474962,
+        "min": 0.0,
+        "negative_mean": 0.6365351790917881,
+        "positive_mean": 0.05221494353361038
+      },
+      "numeric_count_left": {
+        "max": 17.0,
+        "mean": 1.4619115217774283,
+        "min": 0.0,
+        "negative_mean": 1.470131357774706,
+        "positive_mean": 1.431575669752458
+      },
+      "numeric_count_right": {
+        "max": 17.0,
+        "mean": 1.487263415094966,
+        "min": 0.0,
+        "negative_mean": 1.523706379029484,
+        "positive_mean": 1.352768230320595
+      },
+      "numeric_shared": {
+        "max": 1.0,
+        "mean": 0.3227741933836652,
+        "min": 0.0,
+        "negative_mean": 0.19808479845278193,
+        "positive_mean": 0.7829487072011113
+      },
+      "numeric_shared_count": {
+        "max": 17.0,
+        "mean": 0.43250133404141783,
+        "min": 0.0,
+        "negative_mean": 0.2361097590259795,
+        "positive_mean": 1.1572975173950013
+      },
+      "postal_conflict": {
+        "max": 1.0,
+        "mean": 0.015593603750124469,
+        "min": 0.0,
+        "negative_mean": 0.01930128567070994,
+        "positive_mean": 0.0019101567645896456
+      },
+      "postal_missing_left": {
+        "max": 1.0,
+        "mean": 0.9368711175564957,
+        "min": 0.0,
+        "negative_mean": 0.9378614123556784,
+        "positive_mean": 0.9332163686662435
+      },
+      "postal_missing_right": {
+        "max": 1.0,
+        "mean": 0.9375923935383885,
+        "min": 0.0,
+        "negative_mean": 0.9378062472823089,
+        "positive_mean": 0.9368031520580592
+      },
+      "postal_shared": {
+        "max": 1.0,
+        "mean": 0.013304669527940828,
+        "min": 0.0,
+        "negative_mean": 0.002972423953323858,
+        "positive_mean": 0.051436509742398294
+      }
+    },
+    "finite": true,
+    "fit_rows": 626582,
+    "fit_s1_count": 80000,
+    "label_counts": {
+      "0": 616332,
+      "1": 167002
+    },
+    "matrix_bytes": 151183462,
+    "peak_rss_mb": 1098.70703125,
+    "rows": 783334,
+    "seconds": 29.057630332012195,
+    "selection_rows": 156752,
+    "selection_s1_count": 20000,
+    "source": "S3",
+    "target_queries": 885,
+    "target_rows_fetched": 698589
+  },
+  "frozen_artifact_snapshot_after": {
+    "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/baseline/tune_candidates.tsv.gz": {
+      "bytes": 68124387,
+      "mtime_ns": 1790355680174374264
+    },
+    "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/baseline/tune_metadata.tsv.gz": {
+      "bytes": 85942536,
+      "mtime_ns": 1790355680147372174
+    },
+    "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/blocking/v1_index.sqlite": {
+      "bytes": 8210599936,
+      "mtime_ns": 1790349371826577741
+    },
+    "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model_data/phase7/address_k10_candidates.tsv.gz": {
+      "bytes": 21131915,
+      "mtime_ns": 1790405217374874341
+    },
+    "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model_data/phase7/train_pairs_s2.tsv.gz": {
+      "bytes": 8556367,
+      "mtime_ns": 1790405316912947759
+    },
+    "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model_data/phase7/train_pairs_s3.tsv.gz": {
+      "bytes": 8955861,
+      "mtime_ns": 1790405316868947709
+    },
+    "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model_data/phase7/train_subset_ids.txt": {
+      "bytes": 1288840,
+      "mtime_ns": 1790402153220033677
+    },
+    "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model_data/phase7/v1_candidates.tsv.gz": {
+      "bytes": 68363798,
+      "mtime_ns": 1790403115510307885
+    },
+    "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model_data/phase7/v1_metadata.tsv.gz": {
+      "bytes": 86243517,
+      "mtime_ns": 1790403115481307158
+    },
+    "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/retrieval_diagnosis/phase6e/address_top10_100k.tsv.gz": {
+      "bytes": 21114033,
+      "mtime_ns": 1790399912518174225
+    },
+    "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/splits/tune_s1_ids.txt": {
+      "bytes": 1288893,
+      "mtime_ns": 1790354761371313118
+    }
+  },
+  "frozen_artifact_snapshot_before": {
+    "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/baseline/tune_candidates.tsv.gz": {
+      "bytes": 68124387,
+      "mtime_ns": 1790355680174374264
+    },
+    "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/baseline/tune_metadata.tsv.gz": {
+      "bytes": 85942536,
+      "mtime_ns": 1790355680147372174
+    },
+    "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/blocking/v1_index.sqlite": {
+      "bytes": 8210599936,
+      "mtime_ns": 1790349371826577741
+    },
+    "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model_data/phase7/address_k10_candidates.tsv.gz": {
+      "bytes": 21131915,
+      "mtime_ns": 1790405217374874341
+    },
+    "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model_data/phase7/train_pairs_s2.tsv.gz": {
+      "bytes": 8556367,
+      "mtime_ns": 1790405316912947759
+    },
+    "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model_data/phase7/train_pairs_s3.tsv.gz": {
+      "bytes": 8955861,
+      "mtime_ns": 1790405316868947709
+    },
+    "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model_data/phase7/train_subset_ids.txt": {
+      "bytes": 1288840,
+      "mtime_ns": 1790402153220033677
+    },
+    "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model_data/phase7/v1_candidates.tsv.gz": {
+      "bytes": 68363798,
+      "mtime_ns": 1790403115510307885
+    },
+    "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model_data/phase7/v1_metadata.tsv.gz": {
+      "bytes": 86243517,
+      "mtime_ns": 1790403115481307158
+    },
+    "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/retrieval_diagnosis/phase6e/address_top10_100k.tsv.gz": {
+      "bytes": 21114033,
+      "mtime_ns": 1790399912518174225
+    },
+    "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/splits/tune_s1_ids.txt": {
+      "bytes": 1288893,
+      "mtime_ns": 1790354761371313118
+    }
+  },
+  "source": "S3"
+}

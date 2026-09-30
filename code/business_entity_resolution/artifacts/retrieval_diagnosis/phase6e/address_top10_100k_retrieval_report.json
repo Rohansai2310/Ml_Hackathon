@@ -1,0 +1,9 @@
+{
+  "bytes": 21114033,
+  "max_single_token_postings": 19949,
+  "pairs": 1985184,
+  "path": "artifacts/retrieval_diagnosis/phase6e/address_top10_100k.tsv.gz",
+  "peak_rss_mb": 525.65625,
+  "queries": 199043,
+  "runtime_seconds": 1694.7038726690225
+}

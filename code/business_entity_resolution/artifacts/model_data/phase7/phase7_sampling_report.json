@@ -1,0 +1,187 @@
+{
+  "artifacts": {
+    "candidate_report": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model_data/phase7/phase7_candidate_report.json",
+    "sampling_report": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model_data/phase7/phase7_sampling_report.json",
+    "subset_ids": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model_data/phase7/train_subset_ids.txt",
+    "subset_sha256": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model_data/phase7/train_subset_ids.sha256"
+  },
+  "blocking_miss_examples_first_five_each_source": {
+    "S2": [
+      {
+        "source1_entity_id": "S1-100001665",
+        "target_source": "S2",
+        "true_target_id": "S2-471671636"
+      },
+      {
+        "source1_entity_id": "S1-100002411",
+        "target_source": "S2",
+        "true_target_id": "S2-821107510"
+      },
+      {
+        "source1_entity_id": "S1-100017441",
+        "target_source": "S2",
+        "true_target_id": "S2-974991352"
+      },
+      {
+        "source1_entity_id": "S1-100398530",
+        "target_source": "S2",
+        "true_target_id": "S2-985403302"
+      },
+      {
+        "source1_entity_id": "S1-100484966",
+        "target_source": "S2",
+        "true_target_id": "S2-396778433"
+      }
+    ],
+    "S3": [
+      {
+        "source1_entity_id": "S1-100001665",
+        "target_source": "S3",
+        "true_target_id": "S3-277883644"
+      },
+      {
+        "source1_entity_id": "S1-100001665",
+        "target_source": "S3",
+        "true_target_id": "S3-772758229"
+      },
+      {
+        "source1_entity_id": "S1-100007010",
+        "target_source": "S3",
+        "true_target_id": "S3-324341187"
+      },
+      {
+        "source1_entity_id": "S1-100017441",
+        "target_source": "S3",
+        "true_target_id": "S3-791599964"
+      },
+      {
+        "source1_entity_id": "S1-100017441",
+        "target_source": "S3",
+        "true_target_id": "S3-816587797"
+      }
+    ]
+  },
+  "blocking_misses": 23707,
+  "candidate_generation_label_blind": true,
+  "candidate_pairs": {
+    "address_k10_raw": 1985994,
+    "address_pairs_by_source": {
+      "S2": 992761,
+      "S3": 993233
+    },
+    "v1": 12888365,
+    "v1_union_address_k10": 14597845,
+    "v1_union_growth": 1709480
+  },
+  "candidate_recall": 0.9317157332918564,
+  "files_bytes": {
+    "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model_data/phase7/blocking_misses_s2.tsv.gz": 113796,
+    "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model_data/phase7/blocking_misses_s3.tsv.gz": 121831,
+    "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model_data/phase7/train_pairs_s2.tsv.gz": 8556367,
+    "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model_data/phase7/train_pairs_s3.tsv.gz": 8955861
+  },
+  "ground_truth_links_in_subset": 347181,
+  "max_negatives_per_s1": 12,
+  "negative_categories_retained": {
+    "S2": {
+      "address_top_1_3": 196081,
+      "address_top_4_10": 220260,
+      "easy_random": 21811,
+      "v1_address_evidence": 875,
+      "v1_and_address": 8878,
+      "v1_core_name": 49871,
+      "v1_exact_name": 84835,
+      "v1_name_token": 444
+    },
+    "S3": {
+      "address_top_1_3": 198191,
+      "address_top_4_10": 220152,
+      "easy_random": 22644,
+      "v1_address_evidence": 955,
+      "v1_and_address": 8627,
+      "v1_core_name": 54650,
+      "v1_exact_name": 110682,
+      "v1_name_token": 431
+    }
+  },
+  "phase": "7 supervised pair dataset; no model features/training/validation",
+  "retrieved_positive_links": 323474,
+  "s1_count": 100000,
+  "sampling_peak_rss_mb": 242.2421875,
+  "sampling_runtime_seconds": 68.70820786198601,
+  "seed": 20260925,
+  "sources": {
+    "S2": {
+      "blocking_miss_file": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model_data/phase7/blocking_misses_s2.tsv.gz",
+      "candidate_pair_count_before_sampling": 7245377,
+      "candidate_recall": 0.9319467772099728,
+      "negative_categories_retained": {
+        "address_top_1_3": 196081,
+        "address_top_4_10": 220260,
+        "easy_random": 21811,
+        "v1_address_evidence": 875,
+        "v1_and_address": 8878,
+        "v1_core_name": 49871,
+        "v1_exact_name": 84835,
+        "v1_name_token": 444
+      },
+      "negatives_per_s1_before_sampling": {
+        "mean": 70.88905,
+        "median": 46.0,
+        "p95": 206.0
+      },
+      "negatives_retained": 583055,
+      "negatives_retained_per_s1": {
+        "mean": 5.83055,
+        "median": 6.0,
+        "p95": 8.0
+      },
+      "output_file": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model_data/phase7/train_pairs_s2.tsv.gz",
+      "output_rows": 739527,
+      "positive_links_missed_by_blocking": 11426,
+      "positive_negative_ratio": 0.2683657630926756,
+      "positive_pairs_retrieved": 156472,
+      "s1_count": 100000,
+      "s1_with_multiple_retrieved_positives": 47262,
+      "s1_with_zero_retrieved_positives": 16074,
+      "total_negatives_before_sampling": 7088905,
+      "total_true_links": 167898
+    },
+    "S3": {
+      "blocking_miss_file": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model_data/phase7/blocking_misses_s3.tsv.gz",
+      "candidate_pair_count_before_sampling": 7352468,
+      "candidate_recall": 0.9314993613449128,
+      "negative_categories_retained": {
+        "address_top_1_3": 198191,
+        "address_top_4_10": 220152,
+        "easy_random": 22644,
+        "v1_address_evidence": 955,
+        "v1_and_address": 8627,
+        "v1_core_name": 54650,
+        "v1_exact_name": 110682,
+        "v1_name_token": 431
+      },
+      "negatives_per_s1_before_sampling": {
+        "mean": 71.85466,
+        "median": 50.0,
+        "p95": 209.0
+      },
+      "negatives_retained": 616332,
+      "negatives_retained_per_s1": {
+        "mean": 6.16332,
+        "median": 6.0,
+        "p95": 8.0
+      },
+      "output_file": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model_data/phase7/train_pairs_s3.tsv.gz",
+      "output_rows": 783334,
+      "positive_links_missed_by_blocking": 12281,
+      "positive_negative_ratio": 0.2709611053782702,
+      "positive_pairs_retrieved": 167002,
+      "s1_count": 100000,
+      "s1_with_multiple_retrieved_positives": 51228,
+      "s1_with_zero_retrieved_positives": 14851,
+      "total_negatives_before_sampling": 7185466,
+      "total_true_links": 179283
+    }
+  }
+}

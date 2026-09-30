@@ -1,0 +1,62 @@
+{
+  "feature_manifest": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model/phase8/feature_manifest.json",
+  "models": {
+    "S2": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model/phase8/model_s2.txt",
+    "S3": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model/phase8/model_s3.txt"
+  },
+  "policy": {
+    "conflict_margin": null,
+    "conflict_policy": "highest",
+    "open_threshold": null,
+    "s2_threshold": 0.93,
+    "s3_threshold": 0.97
+  },
+  "retrieval": {
+    "address_k10": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/retrieval_diagnosis/phase6e/address_top10_100k.tsv.gz",
+    "v1_candidates": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/baseline/tune_candidates.tsv.gz",
+    "v1_metadata": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/baseline/tune_metadata.tsv.gz"
+  },
+  "score_paths": {
+    "S2": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model/phase8/tune_scores_s2.tsv.gz",
+    "S3": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model/phase8/tune_scores_s3.tsv.gz"
+  },
+  "selected_metrics": {
+    "blocking_misses": 24066,
+    "completely_missed_nonempty_truth": 3501,
+    "correctly_predicted_singletons": 4803,
+    "decision_misses": 50328,
+    "entities_evaluated": 100000,
+    "fn": 74394,
+    "fp": 23544,
+    "macro_f0_5": 0.8676284617025911,
+    "micro_precision_diagnostic": 0.9201429991147351,
+    "micro_recall_diagnostic": 0.7847875328702807,
+    "partial_match_sets": 49102,
+    "perfect_match_sets": 46646,
+    "policy": {
+      "conflict_margin": null,
+      "conflict_policy": "highest",
+      "open_threshold": null,
+      "s2_threshold": 0.93,
+      "s3_threshold": 0.97
+    },
+    "predicted_links": 294827,
+    "predicted_max": 54,
+    "predicted_mean": 2.94827,
+    "predicted_median": 3.0,
+    "predicted_p95": 6.0,
+    "predicted_p99": 8.0,
+    "predicted_singletons": 7802,
+    "s2_precision": 0.9222650602409639,
+    "s2_recall": 0.8018808064361651,
+    "s3_precision": 0.9180823254912186,
+    "s3_recall": 0.7688009808477166,
+    "singleton_accuracy": 0.8647821389989196,
+    "singleton_false_merges": 751,
+    "tp": 271283,
+    "true_links": 345677,
+    "true_singletons": 5554
+  },
+  "selection_rule": "macro F0.5, precision, fewer singleton false merges, fewer predicted links",
+  "tune_predictions": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model/phase9/tune_predictions.tsv.gz"
+}

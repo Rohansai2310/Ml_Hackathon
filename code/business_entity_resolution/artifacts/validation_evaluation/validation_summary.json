@@ -1,0 +1,167 @@
+{
+  "address_generation_peak_rss_mb": 604.453125,
+  "blocking_misses": 52865,
+  "candidate_metrics": {
+    "by_source": {
+      "S2": {
+        "blocking_misses": 25347,
+        "candidate_pairs": 16098984,
+        "candidate_recall": 0.9314660696614266,
+        "recovered": 344499,
+        "true_links": 369846
+      },
+      "S3": {
+        "blocking_misses": 27518,
+        "candidate_pairs": 16233279,
+        "candidate_recall": 0.9301977535842203,
+        "recovered": 366710,
+        "true_links": 394228
+      }
+    },
+    "candidate_count_per_s1": {
+      "max": 3362,
+      "mean": 146.50998491048244,
+      "median": 100.0,
+      "p95": 415.0,
+      "p99": 589.0,
+      "zero_candidate_s1": 1
+    },
+    "overall": {
+      "blocking_misses": 52865,
+      "candidate_pairs": 32332263,
+      "candidate_recall": 0.930811675308936,
+      "recovered": 711209,
+      "true_links": 764074
+    }
+  },
+  "candidate_pairs": 32332263,
+  "disk_bytes": {
+    "address_candidates": 46557485,
+    "predictions": 4553760,
+    "scores_s2": 185200911,
+    "scores_s3": 191767388
+  },
+  "disk_bytes_total": 428079544,
+  "evaluation_peak_rss_mb": 1683.5078125,
+  "files": {
+    "address_candidates": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/validation_evaluation/address_top10_validation.tsv.gz",
+    "predictions": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/validation_evaluation/validation_predictions.tsv.gz",
+    "scores_s2": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/validation_evaluation/validation_scores_s2.tsv.gz",
+    "scores_s3": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/validation_evaluation/validation_scores_s3.tsv.gz"
+  },
+  "frozen_policy": {
+    "conflict_margin": null,
+    "conflict_policy": "highest",
+    "open_threshold": null,
+    "s2_threshold": 0.93,
+    "s3_threshold": 0.97
+  },
+  "model_decision_misses": 110205,
+  "peak_rss_mb": 1683.5078125,
+  "phase": "held-out-validation-evaluation",
+  "policy_artifact": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model/phase9/decision_policy.json",
+  "prediction_metrics": {
+    "S2": {
+      "fn": 72765,
+      "fp": 22029,
+      "precision_diagnostic": 0.9309673780201184,
+      "recall_diagnostic": 0.8032559497736896,
+      "tp": 297081
+    },
+    "S3": {
+      "fn": 90305,
+      "fp": 23924,
+      "precision_diagnostic": 0.9270269363453074,
+      "recall_diagnostic": 0.7709320494739085,
+      "tp": 303923
+    },
+    "blocking_misses": 52865,
+    "completely_missed_nonempty_truth": 7883,
+    "correctly_predicted_singletons": 10709,
+    "decision_misses": 110205,
+    "entities_evaluated": 220683,
+    "fn": 163070,
+    "fp": 45953,
+    "macro_f0_5": 0.8700057896268494,
+    "micro_precision_diagnostic": 0.928970549820158,
+    "micro_recall_diagnostic": 0.7865782633619257,
+    "partial_match_sets": 107355,
+    "perfect_match_sets": 103768,
+    "policy": {
+      "conflict_margin": null,
+      "conflict_policy": "highest",
+      "open_threshold": null,
+      "s2_threshold": 0.93,
+      "s3_threshold": 0.97
+    },
+    "predicted_cardinality_distribution": {
+      "0": 17512,
+      "1": 28914,
+      "10": 244,
+      "11": 122,
+      "12": 81,
+      "13": 47,
+      "14": 21,
+      "15": 28,
+      "16": 22,
+      "17": 17,
+      "18": 14,
+      "19": 7,
+      "2": 48530,
+      "20": 12,
+      "21": 6,
+      "22": 2,
+      "24": 1,
+      "25": 5,
+      "26": 3,
+      "27": 4,
+      "3": 49834,
+      "30": 3,
+      "31": 1,
+      "37": 1,
+      "38": 2,
+      "4": 37458,
+      "41": 1,
+      "5": 21714,
+      "51": 1,
+      "6": 10095,
+      "7": 4050,
+      "8": 1396,
+      "9": 535
+    },
+    "predicted_links": 646957,
+    "predicted_max": 51,
+    "predicted_mean": 2.9316123126838045,
+    "predicted_median": 3.0,
+    "predicted_p95": 6.0,
+    "predicted_p99": 8.0,
+    "predicted_singletons": 17512,
+    "s2_precision": 0.9309673780201184,
+    "s2_recall": 0.8032559497736896,
+    "s3_precision": 0.9270269363453074,
+    "s3_recall": 0.7709320494739085,
+    "singleton_accuracy": 0.8646051994186985,
+    "singleton_false_merges": 1677,
+    "tp": 601004,
+    "true_links": 764074,
+    "true_singletons": 12386
+  },
+  "runtime_seconds_address_generation": 4034.192584777018,
+  "runtime_seconds_evaluation": 159.1420793919824,
+  "runtime_seconds_scoring": 2416.978143631015,
+  "runtime_seconds_total": 6610.312830613053,
+  "scope": "single frozen-policy evaluation; no tuning or test inference",
+  "score_rows": {
+    "S2": 16098984,
+    "S3": 16233279
+  },
+  "scoring_peak_rss_mb": 1159.14453125,
+  "singleton_metrics": {
+    "accuracy": 0.8646051994186985,
+    "correct": 10709,
+    "false_merges": 1677,
+    "predicted": 17512,
+    "true": 12386
+  },
+  "validation_s1_count": 220683
+}

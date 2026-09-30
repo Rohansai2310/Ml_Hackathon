@@ -1,0 +1,190 @@
+{
+  "feature_order": [
+    "name_basic_exact",
+    "name_core_exact",
+    "name_ratio",
+    "name_token_sort_ratio",
+    "name_token_set_ratio",
+    "name_token_jaccard",
+    "name_shared_token_count",
+    "name_shared_fraction_left",
+    "name_shared_fraction_right",
+    "name_length_ratio",
+    "name_prefix_agree",
+    "name_suffix_agree",
+    "name_missing_left",
+    "name_missing_right",
+    "name_missing_both",
+    "address_exact",
+    "address_ratio",
+    "address_token_jaccard",
+    "address_shared_token_count",
+    "address_shared_fraction_left",
+    "address_shared_fraction_right",
+    "address_length_ratio",
+    "address_missing_left",
+    "address_missing_right",
+    "address_missing_both",
+    "numeric_count_left",
+    "numeric_count_right",
+    "numeric_shared_count",
+    "numeric_shared",
+    "numeric_conflict",
+    "postal_shared",
+    "postal_conflict",
+    "postal_missing_left",
+    "postal_missing_right",
+    "country_equal",
+    "country_missing_left",
+    "country_missing_right",
+    "from_v1",
+    "from_address",
+    "from_v1_and_address",
+    "address_rank",
+    "address_rank_reciprocal",
+    "address_rank_log1p",
+    "address_rank_missing",
+    "address_score",
+    "address_top_candidate",
+    "candidate_count_source",
+    "candidate_count_log1p"
+  ],
+  "fit_positive_rate": 0.21328094327637884,
+  "fit_rows": 626582,
+  "model_search": [
+    {
+      "best_iteration": 1297,
+      "configuration": {
+        "bagging_fraction": 0.9,
+        "feature_fraction": 0.9,
+        "lambda_l2": 0.5,
+        "learning_rate": 0.05,
+        "min_data_in_leaf": 100,
+        "name": "balanced_63",
+        "num_leaves": 63
+      },
+      "selection": {
+        "logloss": 0.04188766311181081,
+        "negative_score_quantiles": [
+          3.7979841737663937e-07,
+          2.418292396953282e-06,
+          3.895357025501735e-05,
+          0.006069364206155122,
+          0.4857103152831076
+        ],
+        "positive_score_quantiles": [
+          0.10172359635651268,
+          0.8464859936500303,
+          0.9991276047062515,
+          0.9999470701511038,
+          0.999985577583639
+        ],
+        "pr_auc": 0.9943635904677517,
+        "roc_auc": 0.9983070409971748
+      }
+    },
+    {
+      "best_iteration": 1483,
+      "configuration": {
+        "bagging_fraction": 0.9,
+        "feature_fraction": 1.0,
+        "lambda_l2": 1.0,
+        "learning_rate": 0.06,
+        "min_data_in_leaf": 200,
+        "name": "shallow_31",
+        "num_leaves": 31
+      },
+      "selection": {
+        "logloss": 0.04201256401402248,
+        "negative_score_quantiles": [
+          2.2295875824928159e-07,
+          2.069432704842426e-06,
+          4.584412420687947e-05,
+          0.007649335524932733,
+          0.484032905716469
+        ],
+        "positive_score_quantiles": [
+          0.11572400009675496,
+          0.8323806699870016,
+          0.9990240545157435,
+          0.9999428555715225,
+          0.9999861351771534
+        ],
+        "pr_auc": 0.9943298181212833,
+        "roc_auc": 0.998308128514181
+      }
+    },
+    {
+      "best_iteration": 1495,
+      "configuration": {
+        "bagging_fraction": 0.85,
+        "feature_fraction": 0.9,
+        "lambda_l2": 1.0,
+        "learning_rate": 0.03,
+        "min_data_in_leaf": 150,
+        "name": "wide_95",
+        "num_leaves": 95
+      },
+      "selection": {
+        "logloss": 0.04180960549153129,
+        "negative_score_quantiles": [
+          9.361574773400753e-07,
+          3.682241823119158e-06,
+          4.7099327418093794e-05,
+          0.006027374061032973,
+          0.4914659442217092
+        ],
+        "positive_score_quantiles": [
+          0.10465076448353014,
+          0.8418055855997589,
+          0.9990079548700337,
+          0.9999291369575226,
+          0.9999766180758747
+        ],
+        "pr_auc": 0.9944048460707048,
+        "roc_auc": 0.9983246873391279
+      }
+    }
+  ],
+  "num_threads": 4,
+  "peak_rss_mb": 478.56640625,
+  "phase": "8",
+  "runtime_seconds": 184.0431631479878,
+  "scale_pos_weight": null,
+  "seed": 20260925,
+  "selected": {
+    "best_iteration": 1495,
+    "configuration": {
+      "bagging_fraction": 0.85,
+      "feature_fraction": 0.9,
+      "lambda_l2": 1.0,
+      "learning_rate": 0.03,
+      "min_data_in_leaf": 150,
+      "name": "wide_95",
+      "num_leaves": 95
+    },
+    "selection": {
+      "logloss": 0.04180960549153129,
+      "negative_score_quantiles": [
+        9.361574773400753e-07,
+        3.682241823119158e-06,
+        4.7099327418093794e-05,
+        0.006027374061032973,
+        0.4914659442217092
+      ],
+      "positive_score_quantiles": [
+        0.10465076448353014,
+        0.8418055855997589,
+        0.9990079548700337,
+        0.9999291369575226,
+        0.9999766180758747
+      ],
+      "pr_auc": 0.9944048460707048,
+      "roc_auc": 0.9983246873391279
+    }
+  },
+  "selection_positive_rate": 0.21284576911299377,
+  "selection_rows": 156752,
+  "selection_rule": "highest PR-AUC, then lower logloss, then fewer iterations",
+  "source": "S3"
+}

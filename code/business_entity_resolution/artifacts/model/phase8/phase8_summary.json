@@ -1,0 +1,134 @@
+{
+  "feature_count": 48,
+  "feature_manifest": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model/phase8/feature_manifest.json",
+  "frozen_artifact_snapshot_after": {
+    "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/baseline/tune_candidates.tsv.gz": {
+      "bytes": 68124387,
+      "mtime_ns": 1790355680174374264
+    },
+    "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/baseline/tune_metadata.tsv.gz": {
+      "bytes": 85942536,
+      "mtime_ns": 1790355680147372174
+    },
+    "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/blocking/v1_index.sqlite": {
+      "bytes": 8210599936,
+      "mtime_ns": 1790349371826577741
+    },
+    "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model_data/phase7/address_k10_candidates.tsv.gz": {
+      "bytes": 21131915,
+      "mtime_ns": 1790405217374874341
+    },
+    "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model_data/phase7/train_pairs_s2.tsv.gz": {
+      "bytes": 8556367,
+      "mtime_ns": 1790405316912947759
+    },
+    "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model_data/phase7/train_pairs_s3.tsv.gz": {
+      "bytes": 8955861,
+      "mtime_ns": 1790405316868947709
+    },
+    "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model_data/phase7/train_subset_ids.txt": {
+      "bytes": 1288840,
+      "mtime_ns": 1790402153220033677
+    },
+    "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model_data/phase7/v1_candidates.tsv.gz": {
+      "bytes": 68363798,
+      "mtime_ns": 1790403115510307885
+    },
+    "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model_data/phase7/v1_metadata.tsv.gz": {
+      "bytes": 86243517,
+      "mtime_ns": 1790403115481307158
+    },
+    "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/retrieval_diagnosis/phase6e/address_top10_100k.tsv.gz": {
+      "bytes": 21114033,
+      "mtime_ns": 1790399912518174225
+    },
+    "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/splits/tune_s1_ids.txt": {
+      "bytes": 1288893,
+      "mtime_ns": 1790354761371313118
+    }
+  },
+  "models": {
+    "S2": {
+      "bytes": 15534415,
+      "path": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model/phase8/model_s2.txt",
+      "selected": {
+        "best_iteration": 1485,
+        "configuration": {
+          "bagging_fraction": 0.85,
+          "feature_fraction": 0.9,
+          "lambda_l2": 1.0,
+          "learning_rate": 0.03,
+          "min_data_in_leaf": 150,
+          "name": "wide_95",
+          "num_leaves": 95
+        },
+        "selection": {
+          "logloss": 0.04336520831717094,
+          "negative_score_quantiles": [
+            3.6915614389916035e-07,
+            1.969475832355028e-06,
+            3.1913926797764365e-05,
+            0.006812613627393641,
+            0.49483319697513223
+          ],
+          "positive_score_quantiles": [
+            0.09989361990764993,
+            0.8438899071016301,
+            0.999085925848574,
+            0.9999590718506801,
+            0.9999900032466581
+          ],
+          "pr_auc": 0.9938161263152282,
+          "roc_auc": 0.998183773327887
+        }
+      }
+    },
+    "S3": {
+      "bytes": 15641309,
+      "path": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model/phase8/model_s3.txt",
+      "selected": {
+        "best_iteration": 1495,
+        "configuration": {
+          "bagging_fraction": 0.85,
+          "feature_fraction": 0.9,
+          "lambda_l2": 1.0,
+          "learning_rate": 0.03,
+          "min_data_in_leaf": 150,
+          "name": "wide_95",
+          "num_leaves": 95
+        },
+        "selection": {
+          "logloss": 0.04180960549153129,
+          "negative_score_quantiles": [
+            9.361574773400753e-07,
+            3.682241823119158e-06,
+            4.7099327418093794e-05,
+            0.006027374061032973,
+            0.4914659442217092
+          ],
+          "positive_score_quantiles": [
+            0.10465076448353014,
+            0.8418055855997589,
+            0.9990079548700337,
+            0.9999291369575226,
+            0.9999766180758747
+          ],
+          "pr_auc": 0.9944048460707048,
+          "roc_auc": 0.9983246873391279
+        }
+      }
+    }
+  },
+  "phase": "8",
+  "scope": "No entity-level thresholding, singleton policy, target conflicts, validation, or test inference.",
+  "tune_scores": {
+    "S2": {
+      "bytes": 83276274,
+      "path": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model/phase8/tune_scores_s2.tsv.gz"
+    },
+    "S3": {
+      "bytes": 86593797,
+      "path": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model/phase8/tune_scores_s3.tsv.gz"
+    }
+  }
+}

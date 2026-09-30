@@ -1,0 +1,57 @@
+ENTITY RESOLUTION DIAGNOSTICS
+
+## OVERALL
+S1 entities evaluated: 220,683
+True links: 764,074
+Predicted links: 792,549
+Macro entity-level F0.5 (primary challenge metric): 0.51628906
+Total TP: 284,680
+Total FP: 507,869
+Total FN: 479,394
+Micro-style precision diagnostic: 0.35919546
+Micro-style recall diagnostic: 0.37258171
+
+## SINGLETONS
+True singleton count: 12,386
+Predicted singleton count: 42,786
+Correctly predicted singleton count: 8,590
+SINGLETON_FALSE_MERGE count: 3,796
+Singleton accuracy: 0.69352495
+
+## S2 LINK DIAGNOSTICS (diagnostic only)
+True S2 links: 369,846
+Predicted S2 links: 393,968
+TP: 142,924
+FP: 251,044
+FN: 226,922
+Precision diagnostic: 0.36278073
+Recall diagnostic: 0.38644192
+
+## S3 LINK DIAGNOSTICS (diagnostic only)
+True S3 links: 394,228
+Predicted S3 links: 398,581
+TP: 141,756
+FP: 256,825
+FN: 252,472
+Precision diagnostic: 0.35565167
+Recall diagnostic: 0.35957872
+
+## ENTITY-LEVEL MATCH QUALITY (diagnostic only)
+Perfect match-set entities: 19,880
+Partial match entities: 144,906
+Completely missed linked entities (no true target recovered): 52,101
+Entities with at least one false positive: 64,420
+FALSE_POSITIVE / FALSE_MERGE predicted links outside truth: 507,869
+
+## BLOCKING DIAGNOSTICS (diagnostic only)
+Overall candidate recall / pair completeness: 0.81357827
+S2 candidate recall: 0.80355337
+S3 candidate recall: 0.82298315
+BLOCKING_MISS true links absent from candidates: 142,440
+MODEL_MISS candidate true links absent from predictions: 336,954
+Mean candidates per S1: 129.41079286
+Median candidates per S1: 83.00000000
+P90 candidates per S1: 309.00000000
+P95 candidates per S1: 398.00000000
+P99 candidates per S1: 572.00000000
+Maximum candidates for one S1: 3,346

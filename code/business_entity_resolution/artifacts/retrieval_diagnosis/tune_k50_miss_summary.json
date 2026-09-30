@@ -1,0 +1,56 @@
+{
+  "categories_are_overlapping_heuristics_not_labels": true,
+  "recovered_comparison": {
+    "links_by_source": {
+      "S2": 2181,
+      "S3": 2062
+    },
+    "overlapping_indicator_counts": {
+      "blank_target_address": 278,
+      "conflicting_numeric_tokens": 742,
+      "conflicting_postal_candidates": 23,
+      "different_script_possible_transliteration": 4,
+      "exact_core_name": 6,
+      "heavy_character_difference_ratio_lt_60": 608,
+      "shared_house_or_numeric_tokens": 2385,
+      "shared_postal_candidate": 17,
+      "short_or_generic_name_le_one_core_token": 380,
+      "spacing_or_concatenation_only": 38,
+      "strong_token_overlap_jaccard_ge_0_5": 1531,
+      "useful_address_token_overlap_jaccard_ge_0_5": 2735,
+      "weak_or_no_token_overlap_jaccard_lt_0_2": 2143,
+      "word_order_only_same_tokens": 149
+    }
+  },
+  "remaining_miss_comparison": {
+    "links_by_source": {
+      "S2": 31008,
+      "S3": 29874
+    },
+    "overlapping_indicator_counts": {
+      "blank_target_address": 3940,
+      "conflicting_numeric_tokens": 8948,
+      "conflicting_postal_candidates": 153,
+      "different_script_possible_transliteration": 20616,
+      "exact_core_name": 120,
+      "heavy_character_difference_ratio_lt_60": 28732,
+      "shared_house_or_numeric_tokens": 37310,
+      "shared_postal_candidate": 174,
+      "short_or_generic_name_le_one_core_token": 6850,
+      "spacing_or_concatenation_only": 179,
+      "strong_token_overlap_jaccard_ge_0_5": 13572,
+      "useful_address_token_overlap_jaccard_ge_0_5": 38275,
+      "weak_or_no_token_overlap_jaccard_lt_0_2": 36568,
+      "word_order_only_same_tokens": 572
+    }
+  },
+  "remaining_v1_misses_after_k50": 60882,
+  "sample_file": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/retrieval_diagnosis/tune_k50_miss_examples.tsv",
+  "sample_seed": 20260925,
+  "sample_size_recovered": 100,
+  "sample_size_remaining": 500,
+  "true_links": 345677,
+  "tune_s1_ids": 100000,
+  "v1_misses": 65125,
+  "v1_misses_recovered_by_tfidf_k50": 4243
+}

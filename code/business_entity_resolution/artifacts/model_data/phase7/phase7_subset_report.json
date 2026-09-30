@@ -1,0 +1,13 @@
+{
+  "ids_path": "/home/aaryatedla/Documents/Projects/amazon_ml/code/business_entity_resolution/artifacts/model_data/phase7/train_subset_ids.txt",
+  "requested_size": 100000,
+  "seed": 20260925,
+  "selected_size": 100000,
+  "sha256_sorted_ids_with_trailing_newlines": "973d67a080ed2f5d20f8569519582d08b680e1cba32b637f592b56ea5ded17c5",
+  "train_ids_unique": true,
+  "train_universe_size": 1986138,
+  "tune_overlap": 0,
+  "tune_size": 100000,
+  "validation_overlap": 0,
+  "validation_size": 220683
+}

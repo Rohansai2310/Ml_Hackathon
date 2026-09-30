@@ -1,0 +1,114 @@
+{
+  "additional_candidate_pairs": 345612,
+  "additional_true_links": 554,
+  "extra_candidates_per_new_true_link": 623.8483754512636,
+  "index": {
+    "disk_bytes": 1695028022,
+    "peak_rss_mb": 279.44921875,
+    "settings": {
+      "alternate_sign": false,
+      "analyzer": "char_wb",
+      "format": 1,
+      "idf_scope": "target source",
+      "max_df_ratio": 0.005,
+      "n_features": 1048576,
+      "ngram_range": [
+        3,
+        5
+      ],
+      "shard_rows": 50000
+    },
+    "sources": {
+      "S2": {
+        "features_pruned_common": 1758,
+        "indexed_names": 5034616,
+        "max_df": 25173,
+        "nonempty_names": 5034616,
+        "shards": 101,
+        "target_rows": 5034616,
+        "vectorization_seconds": 113.23810887004947
+      },
+      "S3": {
+        "features_pruned_common": 1763,
+        "indexed_names": 5285603,
+        "max_df": 26428,
+        "nonempty_names": 5285603,
+        "shards": 106,
+        "target_rows": 5285603,
+        "vectorization_seconds": 118.0694326509838
+      }
+    },
+    "total_seconds": 368.6393512689974
+  },
+  "index_bytes": 1695028022,
+  "output_bytes": 5043819,
+  "prototype": "B_char_wb_3_5_df005_sparse_existing_method",
+  "retrieval": {
+    "max_k": 50,
+    "output_bytes": 5043819,
+    "pairs_per_second": 651.4963933515716,
+    "peak_rss_mb": 3994.26171875,
+    "retrieval_seconds": 761.5959275652422,
+    "s1_count": 5000,
+    "tfidf_pairs": 496177,
+    "total_seconds": 797.2920997789479,
+    "vectorization_seconds": 0.4040308475960046
+  },
+  "sample_size": 5000,
+  "seed": 20260925,
+  "total_runtime_seconds": 1170.0596186440089,
+  "v1": {
+    "blocking_misses": 3188,
+    "candidate_pairs": 657231,
+    "candidate_recall": 0.8129437305638678,
+    "max": 3096,
+    "mean": 131.4462,
+    "median": 88.0,
+    "p90": 308.10000000000036,
+    "p95": 398.0,
+    "p99": 576.0100000000002,
+    "recovered_links": 13855,
+    "s1_entities": 5000,
+    "source": {
+      "S2": {
+        "recall": 0.8027210884353742,
+        "recovered": 6608,
+        "true_links": 8232
+      },
+      "S3": {
+        "recall": 0.822494609011463,
+        "recovered": 7247,
+        "true_links": 8811
+      }
+    },
+    "true_links": 17043,
+    "zero_candidate_pct": 0.52
+  },
+  "v2_union": {
+    "blocking_misses": 2634,
+    "candidate_pairs": 1002843,
+    "candidate_recall": 0.8454497447632459,
+    "max": 3096,
+    "mean": 200.5686,
+    "median": 152.0,
+    "p90": 351.10000000000036,
+    "p95": 456.0,
+    "p99": 629.0,
+    "recovered_links": 14409,
+    "s1_entities": 5000,
+    "source": {
+      "S2": {
+        "recall": 0.8336977648202138,
+        "recovered": 6863,
+        "true_links": 8232
+      },
+      "S3": {
+        "recall": 0.8564294631710362,
+        "recovered": 7546,
+        "true_links": 8811
+      }
+    },
+    "true_links": 17043,
+    "zero_candidate_pct": 0.0
+  }
+}

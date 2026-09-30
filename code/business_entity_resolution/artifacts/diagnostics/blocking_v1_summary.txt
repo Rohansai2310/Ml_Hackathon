@@ -1,0 +1,23 @@
+CANDIDATE GENERATION DIAGNOSTICS (no match predictions)
+s1_entities: 220,683
+true_links: 764,074
+s2_true_links: 369,846
+s3_true_links: 394,228
+recovered_links: 621,634
+s2_recovered_links: 297,191
+s3_recovered_links: 324,443
+blocking_misses: 142,440
+s2_blocking_misses: 72,655
+s3_blocking_misses: 69,785
+candidate_recall: 0.81357827
+s2_candidate_recall: 0.80355337
+s3_candidate_recall: 0.82298315
+total_candidate_pairs: 28,558,762
+mean_candidates: 129.41079286
+median_candidates: 83.00000000
+p90_candidates: 309.00000000
+p95_candidates: 398.00000000
+p99_candidates: 572.00000000
+max_candidates: 3,346
+zero_candidate_pct: 0.54331326
+over_1000_candidate_pct: 0.25103882
